@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-20T07:29:28.774Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="AYSjkt-uVm-sm-0LLW0v" version="12.4.3" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-12-20T07:33:47.527Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="a6HIscCIP-zsZEWE0v49" version="12.4.3" type="github" pages="4">
   <diagram id="D73_LH9-GQgMu1KFHfky" name="Customer">
     <mxGraphModel dx="946" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#8095B3" math="0" shadow="0">
       <root>
@@ -427,19 +427,19 @@
         <mxCell id="do4Zr47tkMPMi06IhZcK-18" value="File Systems (HDFS, MapR-FS, etc.)" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;strokeColor=#6A7078;strokeWidth=1;fillColor=#cce5ff;fontSize=14;" parent="do4Zr47tkMPMi06IhZcK-1" vertex="1">
           <mxGeometry x="180" y="415" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="do4Zr47tkMPMi06IhZcK-19" value="Cloud Storage" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;strokeColor=#666B73;strokeWidth=1;fillColor=#cce5ff;fontSize=14;" parent="do4Zr47tkMPMi06IhZcK-1" vertex="1">
+        <mxCell id="do4Zr47tkMPMi06IhZcK-19" value="Casandra" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;strokeColor=#666B73;strokeWidth=1;fillColor=#cce5ff;fontSize=14;" parent="do4Zr47tkMPMi06IhZcK-1" vertex="1">
           <mxGeometry x="380" y="415" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="do4Zr47tkMPMi06IhZcK-21" value="Others (Distributed Object Stores)" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;strokeColor=#666B73;strokeWidth=1;fillColor=#cce5ff;fontSize=14;" parent="do4Zr47tkMPMi06IhZcK-1" vertex="1">
+        <mxCell id="do4Zr47tkMPMi06IhZcK-21" value="CouchBase" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;strokeColor=#666B73;strokeWidth=1;fillColor=#cce5ff;fontSize=14;" parent="do4Zr47tkMPMi06IhZcK-1" vertex="1">
           <mxGeometry x="580" y="415" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="NhQuGvZctJQaqBM5S-f--0" value="File Systems (HDFS, MapR-FS, etc.)" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;strokeColor=#6A7078;strokeWidth=1;fillColor=#cce5ff;fontSize=14;" vertex="1" parent="do4Zr47tkMPMi06IhZcK-1">
+        <mxCell id="NhQuGvZctJQaqBM5S-f--0" value="Flink Stream" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;strokeColor=#6A7078;strokeWidth=1;fillColor=#cce5ff;fontSize=14;" vertex="1" parent="do4Zr47tkMPMi06IhZcK-1">
           <mxGeometry x="180" y="335" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="NhQuGvZctJQaqBM5S-f--1" value="Cloud Storage" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;strokeColor=#666B73;strokeWidth=1;fillColor=#cce5ff;fontSize=14;" vertex="1" parent="do4Zr47tkMPMi06IhZcK-1">
+        <mxCell id="NhQuGvZctJQaqBM5S-f--1" value="Flink Batch" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;strokeColor=#666B73;strokeWidth=1;fillColor=#cce5ff;fontSize=14;" vertex="1" parent="do4Zr47tkMPMi06IhZcK-1">
           <mxGeometry x="380" y="335" width="180" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="NhQuGvZctJQaqBM5S-f--2" value="Others (Distributed Object Stores)" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;strokeColor=#666B73;strokeWidth=1;fillColor=#cce5ff;fontSize=14;" vertex="1" parent="do4Zr47tkMPMi06IhZcK-1">
+        <mxCell id="NhQuGvZctJQaqBM5S-f--2" value="&lt;div&gt;Machine Learning&lt;/div&gt;&lt;div&gt;(RAPIDS, Tensorflow, Pytorch, OpenCV...)&lt;br&gt;&lt;/div&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;strokeColor=#666B73;strokeWidth=1;fillColor=#cce5ff;fontSize=14;" vertex="1" parent="do4Zr47tkMPMi06IhZcK-1">
           <mxGeometry x="580" y="335" width="180" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="NhQuGvZctJQaqBM5S-f--3" value="File Systems (HDFS, MapR-FS, etc.)" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;strokeColor=#6A7078;strokeWidth=1;fillColor=#cce5ff;fontSize=14;" vertex="1" parent="do4Zr47tkMPMi06IhZcK-1">
