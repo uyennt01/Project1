@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-20T08:42:31.104Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="ZQ-e4fMjL1622oX88a2u" version="12.4.3" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-12-20T08:42:43.151Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="nU7K_bVq8zQIH-fbjV5z" version="12.4.3" type="github" pages="4">
   <diagram id="D73_LH9-GQgMu1KFHfky" name="Customer">
     <mxGraphModel dx="946" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#8095B3" math="0" shadow="0">
       <root>
@@ -450,9 +450,6 @@
         </mxCell>
         <mxCell id="NhQuGvZctJQaqBM5S-f--1" value="&lt;div&gt;Stream Processing&lt;br&gt;&lt;/div&gt;&lt;div&gt;(Flink Streaming)&lt;br&gt;&lt;/div&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;strokeColor=#666B73;strokeWidth=1;fillColor=#cce5ff;fontSize=14;" vertex="1" parent="do4Zr47tkMPMi06IhZcK-1">
           <mxGeometry x="380" y="335" width="180" height="50" as="geometry"/>
-        </mxCell>
-        <mxCell id="NhQuGvZctJQaqBM5S-f--2" value="&lt;div&gt;Machine Learning&lt;/div&gt;&lt;div&gt;(RAPIDS, Tensorflow, Pytorch, OpenCV...)&lt;br&gt;&lt;/div&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;strokeColor=#666B73;strokeWidth=1;fillColor=#cce5ff;fontSize=14;" vertex="1" parent="do4Zr47tkMPMi06IhZcK-1">
-          <mxGeometry x="440" y="550" width="180" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="NhQuGvZctJQaqBM5S-f--3" value="SQL (Hive)" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;strokeColor=#6A7078;strokeWidth=1;fillColor=#cce5ff;fontSize=14;" vertex="1" parent="do4Zr47tkMPMi06IhZcK-1">
           <mxGeometry x="180" y="255" width="180" height="50" as="geometry"/>
