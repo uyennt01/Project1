@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-22T13:56:31.713Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="LgVpM5FBeY7TNH_oQvhG" version="12.4.3" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2019-12-22T13:58:06.340Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="JT-P2AI5YxE1RCoFbzSH" version="12.4.3" type="github" pages="5">
   <diagram id="D73_LH9-GQgMu1KFHfky" name="Customer">
     <mxGraphModel dx="946" dy="572" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#8095B3" math="0" shadow="0">
       <root>
@@ -449,7 +449,7 @@
           <mxGeometry x="130" y="600" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="VZpsYekYGGf0luUhQ6Fg-5" value="Staging" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#66B2FF;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="BYk-9opbT7RM_5qbOgpR-1">
-          <mxGeometry x="380" y="480" width="80" height="220" as="geometry"/>
+          <mxGeometry x="380" y="490" width="80" height="200" as="geometry"/>
         </mxCell>
         <mxCell id="VZpsYekYGGf0luUhQ6Fg-8" value="Data Quality needs" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="BYk-9opbT7RM_5qbOgpR-1">
           <mxGeometry x="570" y="540" width="100" height="100" as="geometry"/>
@@ -467,16 +467,16 @@
           <mxGeometry x="670" y="580" width="70" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="VZpsYekYGGf0luUhQ6Fg-19" value="Data Quality Engine" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;fillColor=#B59B48;gradientColor=none;fontColor=#000000;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;horizontal=1;" vertex="1" parent="BYk-9opbT7RM_5qbOgpR-1">
-          <mxGeometry x="510" y="700" width="220" height="100" as="geometry"/>
+          <mxGeometry x="460" y="700" width="340" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="VZpsYekYGGf0luUhQ6Fg-20" value="Profile" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="BYk-9opbT7RM_5qbOgpR-1">
-          <mxGeometry x="290" y="740" width="100" height="30" as="geometry"/>
+          <mxGeometry x="470" y="730" width="100" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="VZpsYekYGGf0luUhQ6Fg-21" value="Cleansing" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="BYk-9opbT7RM_5qbOgpR-1">
-          <mxGeometry x="300" y="750" width="100" height="30" as="geometry"/>
+          <mxGeometry x="580" y="730" width="100" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="VZpsYekYGGf0luUhQ6Fg-22" value="Standardize" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="BYk-9opbT7RM_5qbOgpR-1">
-          <mxGeometry x="310" y="760" width="100" height="30" as="geometry"/>
+          <mxGeometry x="690" y="730" width="100" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
