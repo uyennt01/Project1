@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-22T14:13:07.267Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="j2UYJgOTAzDtlmU-Cafv" version="12.4.3" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2019-12-22T14:17:08.857Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="zuocCxGPdU1JqUqUymB7" version="12.4.3" type="github" pages="5">
   <diagram id="D73_LH9-GQgMu1KFHfky" name="Customer">
     <mxGraphModel dx="946" dy="572" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#8095B3" math="0" shadow="0">
       <root>
@@ -193,7 +193,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gECsFdBlIzcHcg-21xVU" name="DIH Architecture">
-    <mxGraphModel dx="946" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="Sq8qz6Rjfc9JWC2CEWmz-0"/>
         <mxCell id="Sq8qz6Rjfc9JWC2CEWmz-1" parent="Sq8qz6Rjfc9JWC2CEWmz-0"/>
@@ -354,7 +354,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gZcN8XOse5nsc3hAvzwo" name="Page-5">
-    <mxGraphModel dx="946" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="BYk-9opbT7RM_5qbOgpR-0"/>
         <mxCell id="BYk-9opbT7RM_5qbOgpR-1" parent="BYk-9opbT7RM_5qbOgpR-0"/>
