@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-07T06:37:47.253Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="IvLaEgQ8FtT94DcE6H1v" version="12.4.9" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-01-07T06:38:44.022Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="rt8LqF_ZJmiBQRLR-F_h" version="12.4.9" type="github" pages="6">
   <diagram id="D73_LH9-GQgMu1KFHfky" name="Customer">
     <mxGraphModel dx="1186" dy="572" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#8095B3" math="0" shadow="0">
       <root>
@@ -814,6 +814,12 @@
         </mxCell>
         <mxCell id="cBvDR-aeBvktRcMkKaqs-36" value="CDC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
           <mxGeometry x="-500" y="-663" width="64" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="cBvDR-aeBvktRcMkKaqs-37" value="VM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
+          <mxGeometry x="-265" y="-727.5" width="58" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="cBvDR-aeBvktRcMkKaqs-38" value="Physical" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
+          <mxGeometry x="-227" y="-690.5" width="58" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
