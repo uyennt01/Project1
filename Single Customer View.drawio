@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-07T06:40:13.784Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="wYZ1v0yUCOzQqbVvbA-A" version="12.4.9" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-01-07T06:44:25.512Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="-Jd6c6Xno_5HV655V-Eo" version="12.4.9" type="github" pages="6">
   <diagram id="D73_LH9-GQgMu1KFHfky" name="Customer">
     <mxGraphModel dx="1186" dy="572" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#8095B3" math="0" shadow="0">
       <root>
@@ -692,7 +692,7 @@
         <mxCell id="D1qVYmVjDEJjrZ_OqI5E-30" value="CDC/ETL" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;strokeWidth=1;shape=mxgraph.arrows2.arrow;dy=0.43;dx=25;notch=0;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;rotation=32;direction=east;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
           <mxGeometry x="-962" y="-698" width="224.5" height="35" as="geometry"/>
         </mxCell>
-        <mxCell id="D1qVYmVjDEJjrZ_OqI5E-31" value="Solution architecture of master information management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontColor=#000000;fontSize=18;fontStyle=1" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
+        <mxCell id="D1qVYmVjDEJjrZ_OqI5E-31" value="DW Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontColor=#000000;fontSize=18;fontStyle=1" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
           <mxGeometry x="-906" y="-820" width="530" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="D1qVYmVjDEJjrZ_OqI5E-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="D1qVYmVjDEJjrZ_OqI5E-1" source="D1qVYmVjDEJjrZ_OqI5E-34" target="D1qVYmVjDEJjrZ_OqI5E-36">
