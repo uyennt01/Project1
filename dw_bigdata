@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-07T08:09:42.170Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="pJUnC_LWITQ0Pi7MUvn6" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-07T08:10:00.934Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="JyWXjCSChPEYsU2fQaEX" version="12.4.9" type="github">
   <diagram id="50SFJp5ubic6aaenUV3t" name="Page-1">
     <mxGraphModel dx="2548" dy="1608" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -197,11 +197,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-925.87" y="-224.31" as="sourcePoint"/>
             <mxPoint x="-889.62" y="-224.06" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8LVBuge92rnSU-5cAPxC-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8LVBuge92rnSU-5cAPxC-100">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-434.5" y="-306.06" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="8LVBuge92rnSU-5cAPxC-100" value="&lt;div&gt;Cassandra&lt;/div&gt;&lt;div&gt;(Staging/ODS/DW)&lt;br&gt;&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#d79b00;strokeWidth=1;fillColor=#ffe6cc;fontSize=12;" vertex="1" parent="1">
