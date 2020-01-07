@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-07T08:44:59.705Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="9OB323xvKlPLY2W1f0vf" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-07T08:46:44.942Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="9APmxEIFYpyao_9vPJ9P" version="12.4.9" type="github">
   <diagram id="50SFJp5ubic6aaenUV3t" name="Page-1">
     <mxGraphModel dx="2283" dy="1565" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -184,10 +184,10 @@
         <mxCell id="8LVBuge92rnSU-5cAPxC-96" value="CDC" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=#8095B3;fontSize=12;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-899.62" y="-253.81" width="77.25" height="39.5" as="geometry"/>
         </mxCell>
-        <mxCell id="8LVBuge92rnSU-5cAPxC-97" value="" style="endArrow=classic;html=1;fillColor=#ffffff;fontSize=12;fontColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;entryX=0.005;entryY=0.233;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8LVBuge92rnSU-5cAPxC-96" target="8LVBuge92rnSU-5cAPxC-143">
+        <mxCell id="8LVBuge92rnSU-5cAPxC-97" value="" style="endArrow=classic;html=1;fillColor=#ffffff;fontSize=12;fontColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;entryX=0;entryY=0.227;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8LVBuge92rnSU-5cAPxC-96" target="8LVBuge92rnSU-5cAPxC-143">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-925.87" y="-224.31" as="sourcePoint"/>
-            <mxPoint x="-814" y="-227.27931134388245" as="targetPoint"/>
+            <mxPoint x="-753" y="-233" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="8LVBuge92rnSU-5cAPxC-100" value="&lt;div&gt;Cassandra&lt;/div&gt;&lt;div&gt;(Staging/ODS/DW)&lt;br&gt;&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#d79b00;strokeWidth=1;fillColor=#ffe6cc;fontSize=12;" vertex="1" parent="1">
@@ -209,7 +209,7 @@
           <mxGeometry x="-178.99999999999991" y="-124" width="41.59" height="54.38" as="geometry"/>
         </mxCell>
         <mxCell id="8LVBuge92rnSU-5cAPxC-105" value="Applications&lt;br&gt;Ad hoc Analytics" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=#8095B3;fontSize=12;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-91" y="-153.5" width="112.5" height="39.5" as="geometry"/>
+          <mxGeometry x="-91" y="-160" width="112.5" height="39.5" as="geometry"/>
         </mxCell>
         <mxCell id="8LVBuge92rnSU-5cAPxC-107" value="Nifi" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=#8095B3;fontSize=12;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-897.93" y="-143" width="77.93" height="39.5" as="geometry"/>
