@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-07T06:39:08.559Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="TPSY8dlz829yr4dierSZ" version="12.4.9" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-01-07T06:40:13.784Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="wYZ1v0yUCOzQqbVvbA-A" version="12.4.9" type="github" pages="6">
   <diagram id="D73_LH9-GQgMu1KFHfky" name="Customer">
     <mxGraphModel dx="1186" dy="572" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#8095B3" math="0" shadow="0">
       <root>
@@ -779,8 +779,8 @@
         <mxCell id="cBvDR-aeBvktRcMkKaqs-18" value="BCN" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
           <mxGeometry x="-315" y="-465" width="100" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="cBvDR-aeBvktRcMkKaqs-23" value="OGG" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
-          <mxGeometry x="-857" y="-718" width="80" height="20" as="geometry"/>
+        <mxCell id="cBvDR-aeBvktRcMkKaqs-23" value="Oracle Goden Gate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
+          <mxGeometry x="-890" y="-732.5" width="124" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="cBvDR-aeBvktRcMkKaqs-24" value="DW DC Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
           <mxGeometry x="-610" y="-746" width="98" height="20" as="geometry"/>
