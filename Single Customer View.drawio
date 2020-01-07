@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-07T06:35:22.570Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="H1-yhnPAmiuCf9tx71D6" version="12.4.9" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-01-07T06:37:47.253Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="IvLaEgQ8FtT94DcE6H1v" version="12.4.9" type="github" pages="6">
   <diagram id="D73_LH9-GQgMu1KFHfky" name="Customer">
     <mxGraphModel dx="1186" dy="572" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#8095B3" math="0" shadow="0">
       <root>
@@ -797,8 +797,8 @@
         <mxCell id="cBvDR-aeBvktRcMkKaqs-31" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.tower_server;fontSize=25;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
           <mxGeometry x="-456" y="-765" width="65" height="85" as="geometry"/>
         </mxCell>
-        <mxCell id="cBvDR-aeBvktRcMkKaqs-32" value="DR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
-          <mxGeometry x="-507" y="-769" width="64" height="20" as="geometry"/>
+        <mxCell id="cBvDR-aeBvktRcMkKaqs-32" value="DR for DW &amp;amp; BI app" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
+          <mxGeometry x="-531" y="-786" width="116" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="cBvDR-aeBvktRcMkKaqs-33" value="" style="endArrow=classic;html=1;fillColor=#ffffff;fontSize=12;fontColor=#FF0000;" edge="1" parent="D1qVYmVjDEJjrZ_OqI5E-1" target="cBvDR-aeBvktRcMkKaqs-31">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -811,6 +811,9 @@
             <mxPoint x="-520" y="-608" as="sourcePoint"/>
             <mxPoint x="-446" y="-680.6103286384977" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cBvDR-aeBvktRcMkKaqs-36" value="CDC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
+          <mxGeometry x="-500" y="-663" width="64" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
