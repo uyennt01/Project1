@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-07T06:03:24.975Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="gtMtX5st_MsIlxdxx1C-" version="12.4.9" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-01-07T06:06:01.473Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="ynIG-Rflb_OdTiOQnusW" version="12.4.9" type="github" pages="6">
   <diagram id="D73_LH9-GQgMu1KFHfky" name="Customer">
     <mxGraphModel dx="1186" dy="572" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#8095B3" math="0" shadow="0">
       <root>
@@ -698,9 +698,6 @@
         <mxCell id="D1qVYmVjDEJjrZ_OqI5E-31" value="Solution architecture of master information management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontColor=#000000;fontSize=18;fontStyle=1" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
           <mxGeometry x="-906" y="-820" width="530" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="D1qVYmVjDEJjrZ_OqI5E-32" value="Big Data Technology" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
-          <mxGeometry x="-900" y="-342.5" width="590" height="30" as="geometry"/>
-        </mxCell>
         <mxCell id="D1qVYmVjDEJjrZ_OqI5E-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="D1qVYmVjDEJjrZ_OqI5E-1" source="D1qVYmVjDEJjrZ_OqI5E-34" target="D1qVYmVjDEJjrZ_OqI5E-36">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
@@ -776,7 +773,7 @@
         <mxCell id="cBvDR-aeBvktRcMkKaqs-13" value="ETL" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;strokeWidth=1;shape=mxgraph.arrows2.arrow;dy=0.43;dx=25;notch=0;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
           <mxGeometry x="-937.5" y="-555" width="183" height="35" as="geometry"/>
         </mxCell>
-        <mxCell id="cBvDR-aeBvktRcMkKaqs-15" value="Server ETL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
+        <mxCell id="cBvDR-aeBvktRcMkKaqs-15" value="ETL Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
           <mxGeometry x="-881" y="-409" width="80" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="cBvDR-aeBvktRcMkKaqs-17" value="Báo cáo MIS" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
@@ -784,6 +781,18 @@
         </mxCell>
         <mxCell id="cBvDR-aeBvktRcMkKaqs-18" value="BCN" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
           <mxGeometry x="-310" y="-429" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="cBvDR-aeBvktRcMkKaqs-21" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.license_server;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
+          <mxGeometry x="-863.5" y="-812.5" width="65" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="cBvDR-aeBvktRcMkKaqs-22" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.license_server;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
+          <mxGeometry x="-845.5" y="-812.5" width="65" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="cBvDR-aeBvktRcMkKaqs-23" value="CDC Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
+          <mxGeometry x="-857" y="-718" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="cBvDR-aeBvktRcMkKaqs-24" value="DW Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="D1qVYmVjDEJjrZ_OqI5E-1">
+          <mxGeometry x="-549" y="-755" width="80" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
