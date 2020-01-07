@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-07T09:07:39.898Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="dowtffj2Q8IY4dUljmwC" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-07T09:08:07.741Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0" etag="Q72FwFIHfKB_jWWS9Qn7" version="12.4.9" type="github">
   <diagram id="50SFJp5ubic6aaenUV3t" name="Page-1">
     <mxGraphModel dx="2283" dy="1565" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -147,9 +147,6 @@
         </mxCell>
         <mxCell id="8LVBuge92rnSU-5cAPxC-44" value="CDC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-429" y="-664" width="64" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="8LVBuge92rnSU-5cAPxC-156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=8;fontSize=20;" edge="1" parent="1" source="8LVBuge92rnSU-5cAPxC-45" target="8LVBuge92rnSU-5cAPxC-155">
-          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="8LVBuge92rnSU-5cAPxC-45" value="VM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-194" y="-728.5" width="58" height="20" as="geometry"/>
