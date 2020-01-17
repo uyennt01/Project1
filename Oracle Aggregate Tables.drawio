@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-17T03:16:52.758Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0" etag="ytVAq84ZxTQazduN_9nu" version="12.5.5" type="github">
+<mxfile host="www.draw.io" modified="2020-01-17T03:47:01.596Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0" etag="3AjldmQ6YaIjbt1bk2lk" version="12.5.5" type="github">
   <diagram id="MOwnTU56LkCQt1FvEv5g" name="Page-1">
     <mxGraphModel dx="946" dy="567" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#8095B3" math="0" shadow="0">
       <root>
@@ -27,6 +27,9 @@
         </mxCell>
         <mxCell id="UIQq5TDXMI4RmRg3ufpn-31" value="Không có nhu cầu Hierarchy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="171" y="108" width="148" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="UIQq5TDXMI4RmRg3ufpn-33" value="FACT_CASA_TODAY" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fillColor=#3399FF;fontStyle=1;fontSize=18;fontColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="523" y="263" width="20" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
