@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-21T04:53:41.667Z" agent="5.0 (Windows)" etag="eIH7wq9X4qRyf6jWNO9X" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-21T08:27:22.002Z" agent="5.0 (Windows)" etag="8mxI-oAw6u3xs-C3Apji" version="12.9.14" type="github">
   <diagram id="QeJ1PeQarsX0hW5se8th" name="Page-1">
     <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -130,6 +130,9 @@
         </mxCell>
         <mxCell id="iZZk4Q9hEZwyQge0-GY_-57" value="&lt;div&gt;Raw source&lt;/div&gt;&lt;div&gt;Data&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeColor=#B8B8B8;" vertex="1" parent="1">
           <mxGeometry x="330" y="349" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZZk4Q9hEZwyQge0-GY_-58" value="Ứng dụng ảnh hưởng" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="890" width="250" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
