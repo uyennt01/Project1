@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-21T04:52:20.932Z" agent="5.0 (Windows)" etag="fta6AgQWrtzE3zjEB38h" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-21T04:53:41.667Z" agent="5.0 (Windows)" etag="eIH7wq9X4qRyf6jWNO9X" version="12.9.14" type="github">
   <diagram id="QeJ1PeQarsX0hW5se8th" name="Page-1">
     <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
             <mxPoint x="565" y="85" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iZZk4Q9hEZwyQge0-GY_-26" value="ODS" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#B8B8B8;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="iZZk4Q9hEZwyQge0-GY_-26" value="&lt;div&gt;ODS&lt;/div&gt;&lt;div&gt;(Real-time Area)&lt;br&gt;&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#B8B8B8;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="315" y="69" width="170" height="130" as="geometry" />
         </mxCell>
         <mxCell id="iZZk4Q9hEZwyQge0-GY_-28" value="ERP" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
@@ -119,13 +119,13 @@
         <mxCell id="iZZk4Q9hEZwyQge0-GY_-45" value="ICAAP" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="660" y="529" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iZZk4Q9hEZwyQge0-GY_-46" value="BI" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+        <mxCell id="iZZk4Q9hEZwyQge0-GY_-46" value="BI (T-1)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="660" y="729" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iZZk4Q9hEZwyQge0-GY_-50" value="Operational BI" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="660" y="94" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iZZk4Q9hEZwyQge0-GY_-51" value="Real-Time Reports" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+        <mxCell id="iZZk4Q9hEZwyQge0-GY_-51" value="Real-Time BI" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="660" y="144" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iZZk4Q9hEZwyQge0-GY_-57" value="&lt;div&gt;Raw source&lt;/div&gt;&lt;div&gt;Data&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeColor=#B8B8B8;" vertex="1" parent="1">
