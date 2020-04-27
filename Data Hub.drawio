@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-27T04:02:03.909Z" agent="5.0 (Macintosh)" etag="3Ihrl8ohuezQzI9LBPGb" version="13.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-27T04:04:06.796Z" agent="5.0 (Macintosh)" etag="ozTa8TLCuGVb76GisaQ5" version="13.0.1" type="github">
   <diagram id="QeJ1PeQarsX0hW5se8th" name="Page-1">
     <mxGraphModel dx="1186" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="iZZk4Q9hEZwyQge0-GY_-39" value="Consumption Applications" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B8B8B8;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="630" y="250" width="150" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="iZZk4Q9hEZwyQge0-GY_-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iZZk4Q9hEZwyQge0-GY_-18" target="iZZk4Q9hEZwyQge0-GY_-1" edge="1">
+        <mxCell id="iZZk4Q9hEZwyQge0-GY_-23" value="ETL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iZZk4Q9hEZwyQge0-GY_-18" target="iZZk4Q9hEZwyQge0-GY_-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="409" as="targetPoint" />
           </mxGeometry>
@@ -121,6 +121,12 @@
         </mxCell>
         <mxCell id="iZZk4Q9hEZwyQge0-GY_-57" value="&lt;div&gt;Raw source Data&lt;/div&gt;&lt;div&gt;&lt;div&gt;(Data stream&lt;br&gt;Data batch)&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeColor=#B8B8B8;" parent="1" vertex="1">
           <mxGeometry x="320" y="334" width="160" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="C1UQbSpGGnI8vA-GU5wD-2" value="CDC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.008;exitY=0.312;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.005;entryY=0.185;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iZZk4Q9hEZwyQge0-GY_-18" target="iZZk4Q9hEZwyQge0-GY_-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="349" as="targetPoint" />
+            <mxPoint x="168" y="359" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
