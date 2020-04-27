@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-27T04:51:24.616Z" agent="5.0 (Macintosh)" etag="1kdcMywMwICDBOfm7hGF" version="13.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-27T07:59:09.365Z" agent="5.0 (Macintosh)" etag="OGtyJQlKd97gIUC6PoZx" version="13.0.1" type="github">
   <diagram id="QeJ1PeQarsX0hW5se8th" name="Page-1">
     <mxGraphModel dx="1186" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iZZk4Q9hEZwyQge0-GY_-1" value="Data Integration Hub" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#B8B8B8;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="iZZk4Q9hEZwyQge0-GY_-1" value="Data Hub" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#B8B8B8;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="300" y="309" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="iZZk4Q9hEZwyQge0-GY_-8" value="HR" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
@@ -74,7 +74,7 @@
         <mxCell id="K7H6qyfp46d32Sg4vHhx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iZZk4Q9hEZwyQge0-GY_-24" target="iZZk4Q9hEZwyQge0-GY_-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iZZk4Q9hEZwyQge0-GY_-24" value="Data Warehouse" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#B8B8B8;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="iZZk4Q9hEZwyQge0-GY_-24" value="Data Warehouse/ODS" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#B8B8B8;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="315" y="599" width="170" height="130" as="geometry" />
         </mxCell>
         <mxCell id="iZZk4Q9hEZwyQge0-GY_-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iZZk4Q9hEZwyQge0-GY_-26" target="iZZk4Q9hEZwyQge0-GY_-52" edge="1">
@@ -82,7 +82,7 @@
             <mxPoint x="565" y="85" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iZZk4Q9hEZwyQge0-GY_-26" value="&lt;div&gt;ODS&lt;/div&gt;&lt;div&gt;(Real-time Area)&lt;br&gt;&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#B8B8B8;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="iZZk4Q9hEZwyQge0-GY_-26" value="&lt;div&gt;ODS&lt;/div&gt;&lt;div&gt;(Real-time Area)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;chung dw server&lt;br&gt;&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#B8B8B8;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="315" y="69" width="170" height="130" as="geometry" />
         </mxCell>
         <mxCell id="iZZk4Q9hEZwyQge0-GY_-28" value="ERP" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
@@ -95,10 +95,10 @@
           <mxGeometry x="660" y="690" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iZZk4Q9hEZwyQge0-GY_-31" value="Báo cáo MIS" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="660" y="310" width="100" height="30" as="geometry" />
+          <mxGeometry x="630" y="850" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iZZk4Q9hEZwyQge0-GY_-32" value="Báo cáo Ngày" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="660" y="360" width="100" height="30" as="geometry" />
+          <mxGeometry x="635" y="800" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iZZk4Q9hEZwyQge0-GY_-42" value="AML" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="660" y="399" width="100" height="30" as="geometry" />
@@ -130,8 +130,14 @@
             <mxPoint x="168" y="359" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C1UQbSpGGnI8vA-GU5wD-3" value="" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="C1UQbSpGGnI8vA-GU5wD-3" value="STGHOST" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="367.5" y="425" width="65" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C1UQbSpGGnI8vA-GU5wD-5" value="CDC/ETL/DBLINK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="740" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C1UQbSpGGnI8vA-GU5wD-6" value="Giải pháp thay thế dblink" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="770" width="185" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
