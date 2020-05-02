@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2020-05-02T08:21:10.961Z" agent="5.0 (Macintosh)" version="13.0.2" etag="PwG9Kz4JpVNJ5IQNyt32" type="github"><diagram id="-OgflqQQAqNgX4DezEGF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-05-02T08:44:47.621Z" agent="5.0 (Macintosh)" etag="abtEvMeNu25MV6iVoWjm" version="13.0.2" type="github">
+  <diagram id="-OgflqQQAqNgX4DezEGF" name="Page-1">
+    <mxGraphModel dx="1158" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="riuDHmnLefzeeME7vgUR-1" value="Data Lake" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;spacing=2;fontSize=20;spacingBottom=-40;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="460" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="riuDHmnLefzeeME7vgUR-2" value="Raw Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#A8A8A8;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="riuDHmnLefzeeME7vgUR-3" value="Analytics Sandbox" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#A8A8A8;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="460" y="350" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="riuDHmnLefzeeME7vgUR-5" value="Curated Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#A8A8A8;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="590" y="350" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="riuDHmnLefzeeME7vgUR-6" value="Archive Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#A8A8A8;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="590" y="270" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="riuDHmnLefzeeME7vgUR-7" value="Sources" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#A8A8A8;fontSize=20;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="130" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="riuDHmnLefzeeME7vgUR-8" value="F1 CAS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#A8A8A8;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="riuDHmnLefzeeME7vgUR-9" value="LMS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#A8A8A8;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="riuDHmnLefzeeME7vgUR-12" value="Home" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#A8A8A8;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="riuDHmnLefzeeME7vgUR-13" value="CMS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#A8A8A8;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="riuDHmnLefzeeME7vgUR-14" value="My Finance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#A8A8A8;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="370" width="90" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
