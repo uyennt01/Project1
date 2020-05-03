@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-03T12:19:39.830Z" agent="5.0 (Macintosh)" etag="Yo2yTjiehe8hqpoRtXEp" version="13.0.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-05-03T12:25:40.223Z" agent="5.0 (Macintosh)" etag="zfu2nYZi6xyzFtVnUg1W" version="13.0.5" type="github" pages="3">
   <diagram id="-OgflqQQAqNgX4DezEGF" name="Page-1">
     <mxGraphModel dx="946" dy="567" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -261,6 +261,21 @@
         </mxCell>
         <mxCell id="IWYJ2ilgOL9mHG4BSwPn-37" value="EL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="1090" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IWYJ2ilgOL9mHG4BSwPn-38" value="DB2" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1081.5" width="46" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="IWYJ2ilgOL9mHG4BSwPn-39" value="DB2" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="426" y="1001" width="46" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="IWYJ2ilgOL9mHG4BSwPn-40" value="Cassandra" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="421" y="1074" width="64.5" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="IWYJ2ilgOL9mHG4BSwPn-41" value="Cassandra" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#97D077;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="713" y="1026" width="61" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="IWYJ2ilgOL9mHG4BSwPn-42" value="Cassandra" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="583" y="1074" width="65" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
