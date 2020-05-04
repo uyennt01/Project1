@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-05-04T03:43:17.398Z" agent="5.0 (Macintosh)" etag="13HYmYRqnd5FcfMdD2UR" version="13.0.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-05-04T03:47:07.217Z" agent="5.0 (Macintosh)" etag="YyriafK_mfqrGoagN16T" version="13.0.5" type="github" pages="3">
   <diagram id="-OgflqQQAqNgX4DezEGF" name="Page-1">
-    <mxGraphModel dx="1186" dy="567" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="567" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -244,7 +244,7 @@
             <mxPoint x="693" y="992" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IWYJ2ilgOL9mHG4BSwPn-32" value="Consuming System" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="IWYJ2ilgOL9mHG4BSwPn-32" value="Target" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="898" y="952" width="100" height="280" as="geometry" />
         </mxCell>
         <mxCell id="IWYJ2ilgOL9mHG4BSwPn-33" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BABABA;" parent="1" vertex="1">
