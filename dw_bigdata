@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-04-21T04:00:32.301Z" agent="5.0 (Windows)" etag="4IQ7QWXm_xHI1qkRR41-" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-04T04:13:09.691Z" agent="5.0 (Macintosh)" etag="Ew8ZkYwnKMOaNOEQ5dkX" version="13.0.5" type="github">
   <diagram id="50SFJp5ubic6aaenUV3t" name="Page-1">
-    <mxGraphModel dx="2522" dy="1613" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2046" dy="1417" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,11 +118,8 @@
         <mxCell id="8LVBuge92rnSU-5cAPxC-36" value="DW DC Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="-571.5" y="-777.5" width="98" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8LVBuge92rnSU-5cAPxC-37" value="ODS&lt;br&gt;&lt;div&gt;(ODS)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#d5e8d4;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="8LVBuge92rnSU-5cAPxC-37" value="&lt;div&gt;ODS&lt;/div&gt;(Real-time)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#d5e8d4;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-561" y="-567" width="80" height="57" as="geometry" />
-        </mxCell>
-        <mxCell id="8LVBuge92rnSU-5cAPxC-38" value="TBD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="-510.5" y="-524.5" width="59.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8LVBuge92rnSU-5cAPxC-39" value="Information&lt;br&gt;Consumption" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.38;dx=26;fillColor=#B9E0A5;fontSize=12;fontColor=#FF0000;strokeColor=#BDBDBD;" parent="1" vertex="1">
           <mxGeometry x="-448" y="-617" width="169" height="55" as="geometry" />
