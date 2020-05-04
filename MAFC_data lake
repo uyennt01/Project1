@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-05-04T03:47:07.217Z" agent="5.0 (Macintosh)" etag="YyriafK_mfqrGoagN16T" version="13.0.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-05-04T08:25:41.621Z" agent="5.0 (Macintosh)" etag="uS9vDQpsQvFAAGWClWoO" version="13.0.5" type="github" pages="3">
   <diagram id="-OgflqQQAqNgX4DezEGF" name="Page-1">
-    <mxGraphModel dx="946" dy="567" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="601" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -295,7 +295,7 @@
             <mxPoint x="545.5" y="1192" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5xgQgBCabpD81oRHcHrJ-6" value="DB2" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#97D077;" vertex="1" parent="1">
+        <mxCell id="5xgQgBCabpD81oRHcHrJ-6" value="DB2 blue" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#97D077;" vertex="1" parent="1">
           <mxGeometry x="699" y="1271" width="70" height="62" as="geometry" />
         </mxCell>
         <mxCell id="5xgQgBCabpD81oRHcHrJ-7" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="5xgQgBCabpD81oRHcHrJ-6" target="IWYJ2ilgOL9mHG4BSwPn-12">
@@ -353,7 +353,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mwFYy6t6aFJn4XfeNzAz" name="Page-2">
-    <mxGraphModel dx="946" dy="567" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="601" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="oB8YRsM7Yj0VT0emqDyv-0" />
         <mxCell id="oB8YRsM7Yj0VT0emqDyv-1" parent="oB8YRsM7Yj0VT0emqDyv-0" />
@@ -505,7 +505,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TZNEy9rcRIDQMnfp8zGc" name="Data lake use case">
-    <mxGraphModel dx="946" dy="567" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="601" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="6OYE-xzx2rYnUd1iz4Iz-0" />
         <mxCell id="6OYE-xzx2rYnUd1iz4Iz-1" parent="6OYE-xzx2rYnUd1iz4Iz-0" />
