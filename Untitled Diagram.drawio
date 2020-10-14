@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-14T07:23:50.091Z" agent="5.0 (Macintosh)" etag="3QD2rPvP4cNbmSATQKee" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-14T07:26:45.709Z" agent="5.0 (Macintosh)" etag="nm0UguVCwFDB2ih8_PfQ" version="13.6.5" type="github">
   <diagram id="92LHDnlhog-rTB5X18ZB" name="Page-1">
     <mxGraphModel dx="946" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="ZqXkNeLnrpwS1GuoVyIx-14" value="MIS Real-time" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="20" y="40" width="560" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="ZqXkNeLnrpwS1GuoVyIx-12" value="Viết SQL trực tiếp" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+        <mxCell id="ZqXkNeLnrpwS1GuoVyIx-12" value="Viết SQL trực tiếp từ table đồng bộ" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="220" y="80" width="100" height="260" as="geometry" />
         </mxCell>
         <mxCell id="ZqXkNeLnrpwS1GuoVyIx-1" value="Core" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -28,7 +28,7 @@
         <mxCell id="ZqXkNeLnrpwS1GuoVyIx-15" value="ODS Real-time" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="30" y="450" width="740" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="ZqXkNeLnrpwS1GuoVyIx-16" value="" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+        <mxCell id="ZqXkNeLnrpwS1GuoVyIx-16" value="Table đồng bộ" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="220" y="480" width="100" height="260" as="geometry" />
         </mxCell>
         <mxCell id="ZqXkNeLnrpwS1GuoVyIx-17" value="Core" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -84,6 +84,9 @@
         </mxCell>
         <mxCell id="ZqXkNeLnrpwS1GuoVyIx-39" value="Request 3" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rotation=-15;" vertex="1" parent="1">
           <mxGeometry x="540" y="647.5" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqXkNeLnrpwS1GuoVyIx-43" value="Delay" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.6;dx=35;fillColor=#FF3333;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="647.5" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
