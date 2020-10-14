@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-14T07:27:05.148Z" agent="5.0 (Macintosh)" etag="hxa1YmGj8_Mdora0JAbJ" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-14T07:30:47.596Z" agent="5.0 (Macintosh)" etag="plfzAua6qo8I8M60BxLN" version="13.6.5" type="github">
   <diagram id="92LHDnlhog-rTB5X18ZB" name="Page-1">
-    <mxGraphModel dx="946" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
           <mxGeometry x="330" y="88.75" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZqXkNeLnrpwS1GuoVyIx-15" value="ODS Real-time" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="20" y="420" width="740" height="300" as="geometry" />
+          <mxGeometry x="20" y="410" width="740" height="320" as="geometry" />
         </mxCell>
         <mxCell id="ZqXkNeLnrpwS1GuoVyIx-16" value="Table đồng bộ" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="210" y="450" width="100" height="260" as="geometry" />
