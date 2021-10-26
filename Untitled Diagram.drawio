@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T05:15:30.919Z" agent="5.0 (Macintosh)" etag="ZJErL3pIXRNWvGANfY4c" version="15.5.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-26T05:23:12.204Z" agent="5.0 (Macintosh)" etag="WWuwtXrJDoqv_LcAsWk6" version="15.5.9" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -182,6 +182,9 @@
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-12" value="Sqoop/Kafka/Flink" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" connectable="0" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-11">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-13" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Ingest source 1:1 vào HDFS bằng sqoop cho Batch job; Kafka/Flink cho Streaming Job&lt;br&gt;&lt;/p&gt;&lt;p&gt;Join các tables và ghi thành Avro/Parquet HDFS&lt;br&gt;&lt;/p&gt;&lt;div&gt;Sử dụng Hive hoặc Iceberg map file system HDFS và thực hiện transformation phức tạp&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Helvetica;fontSize=12;align=left;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
+          <mxGeometry x="180" y="340" width="480" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
