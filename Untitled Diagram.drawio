@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T06:21:32.337Z" agent="5.0 (Macintosh)" etag="BCMNMmcr329gSlH7tz80" version="15.5.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-26T06:30:06.545Z" agent="5.0 (Macintosh)" etag="PEW1WuO0jDxdEel-8Zxl" version="15.5.9" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -233,6 +233,12 @@
             <mxPoint x="610" y="660" as="sourcePoint" />
             <mxPoint x="610" y="720" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-29" value="Sqoop/Kafka/Flink" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
+          <mxGeometry x="325" y="880" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-30" value="&lt;div&gt;Zone 1:&lt;/div&gt;&lt;div&gt;Sử dụng Hive/Iceberg map file system hdfs&lt;/div&gt;&lt;div&gt;Thực hiện transformation&lt;br&gt;Chia partition cho file system hdfs&lt;/div&gt;&lt;div&gt;Append/merge thông tin IUD(CDC)&lt;/div&gt;&lt;div&gt;Thực hiện một số công việc join các tables&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
+          <mxGeometry x="275" y="705" width="250" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
