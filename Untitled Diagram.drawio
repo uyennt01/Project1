@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T04:45:57.884Z" agent="5.0 (Macintosh)" etag="-099DkbR6c3nxOrZneCn" version="15.5.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-27T04:46:51.783Z" agent="5.0 (Macintosh)" etag="vSv70sXMPT28fSuDo7Uh" version="15.5.9" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -327,13 +327,13 @@
         <mxCell id="6u0kIG3oSp3FxZnsTFts-54" value="Storage" style="swimlane;startSize=0;fontFamily=Helvetica;fontSize=12;align=center;verticalAlign=top;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="30" y="1440" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-55" value="Iceberg" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-54">
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-55" value="Iceberg" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-54">
           <mxGeometry x="20" y="50" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-56" value="HDFS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-54">
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-56" value="HDFS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-54">
           <mxGeometry x="20" y="100" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-57" value="Hive" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-54">
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-57" value="Hive" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-54">
           <mxGeometry x="110" y="50" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-58" value="&lt;div&gt;&lt;b&gt;Zone 1&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Dữ liệu lưu 30 ngày&lt;/div&gt;&lt;div&gt;Định dạng Iceberg, sử dụng Time Travel&lt;/div&gt;&lt;div&gt;10 ngày update full table 1 lần cho Iceberg table&lt;br&gt;&lt;/div&gt;&lt;div&gt;Đã được xử lý Load Incremental&lt;/div&gt;&lt;div&gt;Thực hiện denormalize đơn giản&lt;br&gt;&lt;/div&gt;&lt;div&gt;File system HDFS: Avro, Parquet, nén snappy&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
@@ -345,13 +345,13 @@
         <mxCell id="6u0kIG3oSp3FxZnsTFts-60" value="Storage" style="swimlane;startSize=0;fontFamily=Helvetica;fontSize=12;align=center;verticalAlign=top;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="330" y="1440" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-61" value="Iceberg" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-60">
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-61" value="Iceberg" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-60">
           <mxGeometry x="20" y="50" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-62" value="HDFS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-60">
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-62" value="HDFS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-60">
           <mxGeometry x="20" y="100" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-63" value="Hive" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-60">
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-63" value="Hive" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-60">
           <mxGeometry x="110" y="50" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-64" value="&lt;div&gt;&lt;b&gt;Zone 2&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Tạo các Dataset bằng cách denormalize&lt;br&gt;&lt;/div&gt;&lt;div&gt;Lưu dữ liệu snapshot hàng ngày/tháng&lt;/div&gt;&lt;div&gt;Tạo Dataset theo chủ đề cụ thể theo nhu cầu&lt;/div&gt;&lt;div&gt;Là nơi cung cấp dữ liệu cho các ứng dụng, data science&lt;/div&gt;&lt;div&gt;Định dạng table iceberg sử dụng time travel&lt;/div&gt;&lt;div&gt;Định dạng file system HDFS là Avro, Parquet, nén snappy&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
@@ -371,13 +371,13 @@
         <mxCell id="6u0kIG3oSp3FxZnsTFts-67" value="Storage" style="swimlane;startSize=0;fontFamily=Helvetica;fontSize=12;align=center;verticalAlign=top;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="330" y="1750" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-68" value="Iceberg" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-67">
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-68" value="Iceberg" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-67">
           <mxGeometry x="20" y="50" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-69" value="HDFS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-67">
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-69" value="HDFS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-67">
           <mxGeometry x="20" y="100" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-70" value="Hive" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-67">
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-70" value="Hive" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-67">
           <mxGeometry x="110" y="50" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-71" value="&lt;div&gt;&lt;b&gt;Zone 3&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Lưu trữ mô hình common star schema - mô hình tổng thể, có kích thước lớn&lt;br&gt;&lt;/div&gt;&lt;div&gt;Lưu dữ các flat file được tổng hợp từ star schema theo chủ đề cụ thể&lt;/div&gt;&lt;div&gt;Dữ liệu vùng này được đối soát, phục vụ báo cáo, phân tích cho công cụ BI&lt;br&gt;&lt;/div&gt;Định dạng table iceberg sử dụng time travel&lt;div&gt;Định dạng file system HDFS là Avro, Parquet, nén snappy&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
@@ -398,7 +398,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-74" value="DWH truyền thống" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;verticalAlign=top;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-74" value="DWH truyền thống" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="370" y="2010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-76" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;strokeColor=default;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.544;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="W7oui88Ck5lZrDlK5Bfh-1" source="6u0kIG3oSp3FxZnsTFts-54" target="6u0kIG3oSp3FxZnsTFts-67">
