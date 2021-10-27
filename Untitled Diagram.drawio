@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T04:46:51.783Z" agent="5.0 (Macintosh)" etag="vSv70sXMPT28fSuDo7Uh" version="15.5.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-27T04:52:42.981Z" agent="5.0 (Macintosh)" etag="cHbYnJUv6VOVVv4L8CBo" version="15.5.9" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -426,6 +426,9 @@
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-81" value="&lt;p&gt;Ingest source 1:1 vào HDFS bằng sqoop cho Batch job; Kafka/Flink cho Streaming Job&lt;br&gt;&lt;/p&gt;&lt;p&gt;Join các tables và ghi thành Avro/Parquet HDFS&lt;br&gt;&lt;/p&gt;Sử dụng Hive hoặc Iceberg map file system HDFS và thực hiện transformation phức tạp" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="45" y="360" width="490" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2uteq_3l-Yl3IrauyKrz-0" value="&lt;div&gt;Sử dụng Hive Metastore lưu trữ metadata&lt;/div&gt;&lt;div&gt;Điều phối và quản lý jobs: Oozie bao gồm:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;- Các hoạt động của Sqoop gồm: Import/Export&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;- Các hoạt động Join, Partition, Merge Data của Hive, Iceberg&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;- Các hoạt động Aggregate tận dụng MapReduce&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontStyle=1;labelBackgroundColor=#FAFFB3;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
+          <mxGeometry x="40" y="2090" width="340" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
