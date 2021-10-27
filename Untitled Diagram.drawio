@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T14:09:13.232Z" agent="5.0 (Macintosh)" etag="S1WEROUpauZ9r39yRq5s" version="15.5.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-27T14:12:30.166Z" agent="5.0 (Macintosh)" etag="e83VSgcyAzxOSXB2E3NH" version="15.5.9" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -430,6 +430,9 @@
         </mxCell>
         <mxCell id="L_lYqqfeai27Hy3bbyJA-5" value="Sử dụng Pentaho quản lý Job" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="455" y="2090" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="L_lYqqfeai27Hy3bbyJA-6" value="&lt;div&gt;Xem xét giải pháp dremio&lt;/div&gt;&lt;div&gt;VDS&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
+          <mxGeometry x="605" y="1650" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
