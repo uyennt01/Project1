@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T01:51:38.301Z" agent="5.0 (Macintosh)" etag="ulGE35OtRZ_bEYl-grAV" version="15.5.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-27T03:53:39.654Z" agent="5.0 (Macintosh)" etag="gSCDdfRTKhHfUoXdetXP" version="15.5.9" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -326,6 +326,21 @@
             <mxPoint x="480" y="1180" as="sourcePoint" />
             <mxPoint x="530" y="1130" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-54" value="Storage" style="swimlane;startSize=0;fontFamily=Helvetica;fontSize=12;align=center;verticalAlign=top;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
+          <mxGeometry x="130" y="1440" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-55" value="Iceberg" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-54">
+          <mxGeometry x="20" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-56" value="HDFS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-54">
+          <mxGeometry x="20" y="100" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-57" value="Hive" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-54">
+          <mxGeometry x="110" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-58" value="&lt;div&gt;&lt;b&gt;Zone 1&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Dữ liệu lưu 30 ngày&lt;/div&gt;&lt;div&gt;Định dạng Iceberg, sử dụng Time Travel&lt;/div&gt;&lt;div&gt;10 ngày update full table 1 lần cho Iceberg table&lt;br&gt;&lt;/div&gt;&lt;div&gt;Đã được xử lý Load Incremental&lt;/div&gt;&lt;div&gt;Thực hiện denormalize đơn giản&lt;br&gt;&lt;/div&gt;&lt;div&gt;File system HDFS: Avro, Parquet, nén snappy&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
+          <mxGeometry x="685" y="1410" width="270" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
