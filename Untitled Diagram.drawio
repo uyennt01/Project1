@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T03:53:39.654Z" agent="5.0 (Macintosh)" etag="gSCDdfRTKhHfUoXdetXP" version="15.5.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-27T04:21:43.864Z" agent="5.0 (Macintosh)" etag="ndK-LQnZDzUf9xN5Usck" version="15.5.9" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -328,7 +328,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-54" value="Storage" style="swimlane;startSize=0;fontFamily=Helvetica;fontSize=12;align=center;verticalAlign=top;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
-          <mxGeometry x="130" y="1440" width="200" height="160" as="geometry" />
+          <mxGeometry x="90" y="1540" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-55" value="Iceberg" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-54">
           <mxGeometry x="20" y="50" width="60" height="30" as="geometry" />
@@ -341,6 +341,35 @@
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-58" value="&lt;div&gt;&lt;b&gt;Zone 1&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Dữ liệu lưu 30 ngày&lt;/div&gt;&lt;div&gt;Định dạng Iceberg, sử dụng Time Travel&lt;/div&gt;&lt;div&gt;10 ngày update full table 1 lần cho Iceberg table&lt;br&gt;&lt;/div&gt;&lt;div&gt;Đã được xử lý Load Incremental&lt;/div&gt;&lt;div&gt;Thực hiện denormalize đơn giản&lt;br&gt;&lt;/div&gt;&lt;div&gt;File system HDFS: Avro, Parquet, nén snappy&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="685" y="1410" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-59" value="&lt;b&gt;Zone 1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
+          <mxGeometry x="145" y="1710" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-60" value="Storage" style="swimlane;startSize=0;fontFamily=Helvetica;fontSize=12;align=center;verticalAlign=top;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
+          <mxGeometry x="390" y="1540" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-61" value="Iceberg" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-60">
+          <mxGeometry x="20" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-62" value="HDFS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-60">
+          <mxGeometry x="20" y="100" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-63" value="Hive" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;verticalAlign=top;" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-60">
+          <mxGeometry x="110" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-64" value="&lt;div&gt;&lt;b&gt;Zone 2&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Tạo các Dataset bằng cách denormalize&lt;br&gt;&lt;/div&gt;&lt;div&gt;Lưu dữ liệu snapshot hàng ngày/tháng&lt;/div&gt;&lt;div&gt;Tạo Dataset theo chủ đề cụ thể theo nhu cầu&lt;/div&gt;&lt;div&gt;Là nơi cung cấp dữ liệu cho các ứng dụng, data science&lt;/div&gt;&lt;div&gt;Định dạng table iceberg sử dụng time travel&lt;/div&gt;&lt;div&gt;Định dạng file system HDFS là Avro, Parquet, nén snappy&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
+          <mxGeometry x="320" y="1710" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-65" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;strokeColor=default;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="W7oui88Ck5lZrDlK5Bfh-1" source="6u0kIG3oSp3FxZnsTFts-54" target="6u0kIG3oSp3FxZnsTFts-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1620" as="sourcePoint" />
+            <mxPoint x="460" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-66" value="Spark ETL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;" vertex="1" connectable="0" parent="6u0kIG3oSp3FxZnsTFts-65">
+          <mxGeometry x="-0.1529" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
