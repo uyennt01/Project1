@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T04:38:49.669Z" agent="5.0 (Macintosh)" etag="m_K5Cm-IKJwAOA-JItP0" version="15.5.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-27T04:41:45.338Z" agent="5.0 (Macintosh)" etag="TUc_6GZQscRSKDsdj15q" version="15.5.9" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -183,68 +183,65 @@
         <mxCell id="6u0kIG3oSp3FxZnsTFts-12" value="Sqoop/Kafka/Flink" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" connectable="0" vertex="1" parent="6u0kIG3oSp3FxZnsTFts-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-13" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Ingest source 1:1 vào HDFS bằng sqoop cho Batch job; Kafka/Flink cho Streaming Job&lt;br&gt;&lt;/p&gt;&lt;p&gt;Join các tables và ghi thành Avro/Parquet HDFS&lt;br&gt;&lt;/p&gt;&lt;div&gt;Sử dụng Hive hoặc Iceberg map file system HDFS và thực hiện transformation phức tạp&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Helvetica;fontSize=12;align=left;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
-          <mxGeometry x="180" y="340" width="480" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-14" value="Land in HDFS" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;align=left;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
-          <mxGeometry x="360" y="550" width="100" height="100" as="geometry" />
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-14" value="Land in HDFS" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
+          <mxGeometry x="240" y="470" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-15" value="Chuyển đổi thành Avro/Parquet" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;align=left;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
-          <mxGeometry x="550" y="550" width="100" height="100" as="geometry" />
+          <mxGeometry x="430" y="470" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-16" value="&lt;div&gt;XML&lt;/div&gt;&lt;div&gt;CSV&lt;/div&gt;&lt;div&gt;Excel&lt;/div&gt;&lt;div&gt;TXT&lt;br&gt;&lt;/div&gt;&lt;div&gt;Logs&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
-          <mxGeometry x="160" y="560" width="120" height="80" as="geometry" />
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-16" value="&lt;div&gt;XML&lt;/div&gt;&lt;div&gt;CSV&lt;/div&gt;&lt;div&gt;Excel&lt;/div&gt;&lt;div&gt;TXT&lt;br&gt;&lt;/div&gt;&lt;div&gt;Logs&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
+          <mxGeometry x="40" y="480" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-19" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;strokeColor=default;strokeWidth=1;" edge="1" parent="W7oui88Ck5lZrDlK5Bfh-1" source="6u0kIG3oSp3FxZnsTFts-16" target="6u0kIG3oSp3FxZnsTFts-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="610" as="sourcePoint" />
-            <mxPoint x="330" y="560" as="targetPoint" />
+            <mxPoint x="160" y="530" as="sourcePoint" />
+            <mxPoint x="210" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-20" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;strokeColor=default;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="W7oui88Ck5lZrDlK5Bfh-1" source="6u0kIG3oSp3FxZnsTFts-14" target="6u0kIG3oSp3FxZnsTFts-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="599.5" as="sourcePoint" />
-            <mxPoint x="530" y="600" as="targetPoint" />
+            <mxPoint x="360" y="519.5" as="sourcePoint" />
+            <mxPoint x="410" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-21" value="&lt;div&gt;Hive/&lt;/div&gt;&lt;div&gt;Iceberg&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;align=left;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
-          <mxGeometry x="550" y="710" width="100" height="100" as="geometry" />
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-21" value="&lt;div&gt;Hive/&lt;/div&gt;&lt;div&gt;Iceberg&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
+          <mxGeometry x="430" y="630" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-22" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;strokeColor=default;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="W7oui88Ck5lZrDlK5Bfh-1" source="6u0kIG3oSp3FxZnsTFts-15" target="6u0kIG3oSp3FxZnsTFts-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470" y="610" as="sourcePoint" />
-            <mxPoint x="560" y="610" as="targetPoint" />
+            <mxPoint x="350" y="530" as="sourcePoint" />
+            <mxPoint x="440" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-24" value="Chuyển đổi thành Avro/Parquet" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;align=left;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
-          <mxGeometry x="550" y="850" width="100" height="100" as="geometry" />
+          <mxGeometry x="430" y="770" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-25" value="OLTP" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
-          <mxGeometry x="160" y="860" width="120" height="80" as="geometry" />
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-25" value="OLTP" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
+          <mxGeometry x="40" y="780" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-27" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;strokeColor=default;strokeWidth=1;" edge="1" parent="W7oui88Ck5lZrDlK5Bfh-1" source="6u0kIG3oSp3FxZnsTFts-25" target="6u0kIG3oSp3FxZnsTFts-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="900" as="sourcePoint" />
-            <mxPoint x="530" y="900" as="targetPoint" />
+            <mxPoint x="340" y="820" as="sourcePoint" />
+            <mxPoint x="410" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-28" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;strokeColor=default;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="W7oui88Ck5lZrDlK5Bfh-1" source="6u0kIG3oSp3FxZnsTFts-24" target="6u0kIG3oSp3FxZnsTFts-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="660" as="sourcePoint" />
-            <mxPoint x="610" y="720" as="targetPoint" />
+            <mxPoint x="490" y="580" as="sourcePoint" />
+            <mxPoint x="490" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-29" value="Sqoop/Kafka/Flink/OGG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
-          <mxGeometry x="310" y="880" width="140" height="20" as="geometry" />
+          <mxGeometry x="190" y="800" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-30" value="&lt;div&gt;&lt;b&gt;Zone 1:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Sử dụng Hive/Iceberg map file system hdfs&lt;/div&gt;&lt;div&gt;Thực hiện transformation&lt;br&gt;Chia partition cho file system hdfs&lt;/div&gt;&lt;div&gt;Append/merge thông tin IUD(CDC)&lt;/div&gt;&lt;div&gt;Thực hiện một số công việc join các tables&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
-          <mxGeometry x="680" y="715" width="250" height="90" as="geometry" />
+          <mxGeometry x="560" y="635" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-31" value="&lt;div&gt;&lt;b&gt;Thư mục HDFS&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;/user/&amp;lt;username&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;/etl/&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;/tmp/&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;/data/&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;/app/&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;/metadata/&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;/landing/&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
-          <mxGeometry x="350" y="660" width="110" height="120" as="geometry" />
+          <mxGeometry x="230" y="580" width="110" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-32" value="&lt;div&gt;Chia partition file system hdfs&lt;/div&gt;&lt;div&gt;Năm/tháng/ngày theo từng table&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
-          <mxGeometry x="660" y="885" width="190" height="30" as="geometry" />
+          <mxGeometry x="540" y="805" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-33" value="Events" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=left;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="160" y="1065" width="120" height="60" as="geometry" />
@@ -426,6 +423,9 @@
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-80" value="&lt;div&gt;Sử dụng Sqoop để ETL dữ liệu giữa 2 hệ thống&lt;/div&gt;&lt;div&gt;Xem xét giải pháp Dremino&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="155" y="2050" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-81" value="&lt;p&gt;Ingest source 1:1 vào HDFS bằng sqoop cho Batch job; Kafka/Flink cho Streaming Job&lt;br&gt;&lt;/p&gt;&lt;p&gt;Join các tables và ghi thành Avro/Parquet HDFS&lt;br&gt;&lt;/p&gt;Sử dụng Hive hoặc Iceberg map file system HDFS và thực hiện transformation phức tạp" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
+          <mxGeometry x="45" y="360" width="490" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
