@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T13:45:25.392Z" agent="5.0 (Macintosh)" etag="dYH0002czbMaxxzWyTAy" version="15.5.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-27T13:46:05.616Z" agent="5.0 (Macintosh)" etag="zXbzWyfMMc7LO8Y8jOW5" version="15.5.9" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -220,16 +220,13 @@
         <mxCell id="6u0kIG3oSp3FxZnsTFts-25" value="OLTP" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="40" y="780" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-27" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;strokeColor=default;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="W7oui88Ck5lZrDlK5Bfh-1" source="6u0kIG3oSp3FxZnsTFts-25" target="4B_iJnfj3TO7Ojgi5MJ3-4">
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-27" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;strokeColor=default;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="W7oui88Ck5lZrDlK5Bfh-1" source="6u0kIG3oSp3FxZnsTFts-25" target="6u0kIG3oSp3FxZnsTFts-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="820" as="sourcePoint" />
-            <mxPoint x="430" y="820" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-28" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;strokeColor=default;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="W7oui88Ck5lZrDlK5Bfh-1" source="4B_iJnfj3TO7Ojgi5MJ3-4" target="6u0kIG3oSp3FxZnsTFts-21">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="770" as="sourcePoint" />
-            <mxPoint x="490" y="640" as="targetPoint" />
+            <mxPoint x="415" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="820" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-29" value="Sqoop/Kafka/Flink/OGG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
@@ -430,9 +427,6 @@
         </mxCell>
         <mxCell id="2uteq_3l-Yl3IrauyKrz-0" value="&lt;div&gt;Sử dụng Hive Metastore lưu trữ metadata&lt;/div&gt;&lt;div&gt;Điều phối và quản lý jobs: Oozie bao gồm:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;- Các hoạt động của Sqoop gồm: Import/Export&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;- Các hoạt động Join, Partition, Merge Data của Hive, Iceberg&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;- Các hoạt động Aggregate tận dụng MapReduce&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontStyle=1;labelBackgroundColor=#FAFFB3;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="40" y="2090" width="340" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="4B_iJnfj3TO7Ojgi5MJ3-4" value="Chuyển đổi thành Avro/Parquet" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
-          <mxGeometry x="415" y="790" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
