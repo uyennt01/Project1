@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T13:39:40.321Z" agent="5.0 (Macintosh)" etag="gXYsgFkKoQ1_LyPCqG4R" version="15.5.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-27T13:45:25.392Z" agent="5.0 (Macintosh)" etag="dYH0002czbMaxxzWyTAy" version="15.5.9" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -184,7 +184,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-14" value="Land in HDFS" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
-          <mxGeometry x="240" y="470" width="100" height="100" as="geometry" />
+          <mxGeometry x="315" y="470" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-16" value="&lt;div&gt;XML&lt;/div&gt;&lt;div&gt;CSV&lt;/div&gt;&lt;div&gt;Excel&lt;/div&gt;&lt;div&gt;TXT&lt;br&gt;&lt;/div&gt;&lt;div&gt;Logs&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="40" y="480" width="120" height="80" as="geometry" />
@@ -195,20 +195,27 @@
             <mxPoint x="210" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-20" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;strokeColor=default;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="W7oui88Ck5lZrDlK5Bfh-1" source="6u0kIG3oSp3FxZnsTFts-14" target="4B_iJnfj3TO7Ojgi5MJ3-1">
+        <mxCell id="L_lYqqfeai27Hy3bbyJA-0" value="offload/put hdfs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="6u0kIG3oSp3FxZnsTFts-19">
+          <mxGeometry x="-0.025" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-20" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;strokeColor=default;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="W7oui88Ck5lZrDlK5Bfh-1" source="6u0kIG3oSp3FxZnsTFts-14" target="6u0kIG3oSp3FxZnsTFts-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="519.5" as="sourcePoint" />
             <mxPoint x="390" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_lYqqfeai27Hy3bbyJA-1" value="Spark" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="6u0kIG3oSp3FxZnsTFts-20">
+          <mxGeometry x="0.0133" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-21" value="&lt;div&gt;Hive/&lt;/div&gt;&lt;div&gt;Iceberg&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="430" y="630" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-22" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;strokeColor=default;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="W7oui88Ck5lZrDlK5Bfh-1" source="4B_iJnfj3TO7Ojgi5MJ3-1" target="6u0kIG3oSp3FxZnsTFts-21">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="570" as="sourcePoint" />
-            <mxPoint x="440" y="530" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-25" value="OLTP" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="40" y="780" width="120" height="80" as="geometry" />
@@ -228,11 +235,11 @@
         <mxCell id="6u0kIG3oSp3FxZnsTFts-29" value="Sqoop/Kafka/Flink/OGG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="190" y="800" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="6u0kIG3oSp3FxZnsTFts-30" value="&lt;div&gt;&lt;b&gt;Zone 1:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Sử dụng Hive/Iceberg map file system hdfs&lt;/div&gt;&lt;div&gt;Thực hiện transformation&lt;br&gt;Chia partition cho file system hdfs&lt;/div&gt;&lt;div&gt;Append/merge thông tin IUD(CDC)&lt;/div&gt;&lt;div&gt;Thực hiện một số công việc join các tables&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;chốt oltp =&amp;gt; iceberg table&lt;/div&gt;&lt;div&gt;CDC =&amp;gt; dữ liệu phát sinh, bảng đồng bộ 1:1&lt;br&gt;&lt;/div&gt;&lt;div&gt;Giải quyết trường hợp backup hàng ngày&lt;/div&gt;&lt;div&gt;Nhân mô tả kịch bản&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
+        <mxCell id="6u0kIG3oSp3FxZnsTFts-30" value="&lt;div&gt;&lt;b&gt;Zone 1:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Sử dụng Hive/Iceberg map file system hdfs&lt;/div&gt;&lt;div&gt;Thực hiện transformation&lt;br&gt;Chia partition cho file system hdfs&lt;/div&gt;&lt;div&gt;Append/merge thông tin IUD(CDC)&lt;/div&gt;&lt;div&gt;Thực hiện một số công việc join các tables&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;chốt oltp =&amp;gt; iceberg table&lt;/div&gt;&lt;div&gt;CDC =&amp;gt; dữ liệu phát sinh, bảng đồng bộ 1:1&lt;br&gt;&lt;/div&gt;&lt;div&gt;Giải quyết trường hợp backup hàng ngày&lt;/div&gt;&lt;div&gt;Chốt - Nhân mô tả kịch bản&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="560" y="600" width="250" height="160" as="geometry" />
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-31" value="&lt;div&gt;&lt;b&gt;Thư mục HDFS&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;/user/&amp;lt;username&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;/etl/&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;/tmp/&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;/data/&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;/app/&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;/metadata/&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;/landing/&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
-          <mxGeometry x="230" y="580" width="110" height="120" as="geometry" />
+          <mxGeometry x="180" y="570" width="110" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6u0kIG3oSp3FxZnsTFts-32" value="&lt;div&gt;Chia partition file system hdfs&lt;/div&gt;&lt;div&gt;Năm/tháng/ngày theo từng table&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="565" y="805" width="190" height="30" as="geometry" />
@@ -423,9 +430,6 @@
         </mxCell>
         <mxCell id="2uteq_3l-Yl3IrauyKrz-0" value="&lt;div&gt;Sử dụng Hive Metastore lưu trữ metadata&lt;/div&gt;&lt;div&gt;Điều phối và quản lý jobs: Oozie bao gồm:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;- Các hoạt động của Sqoop gồm: Import/Export&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;- Các hoạt động Join, Partition, Merge Data của Hive, Iceberg&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;- Các hoạt động Aggregate tận dụng MapReduce&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontStyle=1;labelBackgroundColor=#FAFFB3;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="40" y="2090" width="340" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="4B_iJnfj3TO7Ojgi5MJ3-1" value="Chuyển đổi thành Avro/Parquet" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
-          <mxGeometry x="415" y="490" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4B_iJnfj3TO7Ojgi5MJ3-4" value="Chuyển đổi thành Avro/Parquet" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="W7oui88Ck5lZrDlK5Bfh-1">
           <mxGeometry x="415" y="790" width="130" height="60" as="geometry" />
