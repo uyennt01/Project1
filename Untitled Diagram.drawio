@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T02:44:24.690Z" agent="5.0 (Macintosh)" etag="LuBtr5fHh2s6sILx__OI" version="15.8.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-29T02:58:59.617Z" agent="5.0 (Macintosh)" etag="alRpQ40GXc7Vs7fKwDHp" version="15.8.6" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -605,6 +605,36 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="820" y="1430" as="sourcePoint" />
             <mxPoint x="890" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vnKHBREO-p8FWZfRpgUc-42" value="PYC_MBNT_QUANLY_TRANGTHAI" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;" vertex="1" parent="vnKHBREO-p8FWZfRpgUc-1">
+          <mxGeometry x="1580" y="1490" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vnKHBREO-p8FWZfRpgUc-43" value="PYC_MBNT_QUANLY_TRANGTHAI_TMP1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;" vertex="1" parent="vnKHBREO-p8FWZfRpgUc-1">
+          <mxGeometry x="1210" y="1410" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vnKHBREO-p8FWZfRpgUc-44" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="vnKHBREO-p8FWZfRpgUc-1" source="vnKHBREO-p8FWZfRpgUc-43" target="vnKHBREO-p8FWZfRpgUc-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1410" y="1490" as="sourcePoint" />
+            <mxPoint x="1460" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vnKHBREO-p8FWZfRpgUc-45" value="MBNT_MAP_SPT_D_MH54010_RT" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;" vertex="1" parent="vnKHBREO-p8FWZfRpgUc-1">
+          <mxGeometry x="1210" y="1490" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vnKHBREO-p8FWZfRpgUc-46" value="DUAL" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;" vertex="1" parent="vnKHBREO-p8FWZfRpgUc-1">
+          <mxGeometry x="1230" y="1570" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vnKHBREO-p8FWZfRpgUc-47" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="vnKHBREO-p8FWZfRpgUc-1" source="vnKHBREO-p8FWZfRpgUc-45" target="vnKHBREO-p8FWZfRpgUc-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1490" y="1450" as="sourcePoint" />
+            <mxPoint x="1600" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vnKHBREO-p8FWZfRpgUc-48" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="vnKHBREO-p8FWZfRpgUc-1" source="vnKHBREO-p8FWZfRpgUc-46" target="vnKHBREO-p8FWZfRpgUc-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1490" y="1530" as="sourcePoint" />
+            <mxPoint x="1600" y="1450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
