@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T09:21:49.582Z" agent="5.0 (Macintosh)" etag="Ya4igD6H59NZW6KSE40r" version="15.8.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-29T09:30:17.389Z" agent="5.0 (Macintosh)" etag="YdccgWKSSgZ0iG5wd_si" version="15.8.6" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -786,6 +786,12 @@
             <mxPoint x="390" y="2400" as="sourcePoint" />
             <mxPoint x="440" y="2350" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vnKHBREO-p8FWZfRpgUc-98" value="Cấp độ dữ liệu: hợp đồng" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fillStyle=solid;" vertex="1" parent="vnKHBREO-p8FWZfRpgUc-1">
+          <mxGeometry x="410" y="2330" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vnKHBREO-p8FWZfRpgUc-99" value="Cấp độ dữ liệu: hợp đồng" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fillStyle=solid;" vertex="1" parent="vnKHBREO-p8FWZfRpgUc-1">
+          <mxGeometry x="375" y="1335" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
