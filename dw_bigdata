@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T06:31:43.338Z" agent="5.0 (Macintosh)" etag="ViH7m7n-x3mgE9DBDD4M" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-14T06:33:43.747Z" agent="5.0 (Macintosh)" etag="f7trsO8EjMw9U4OTUPaq" version="17.4.0" type="github">
   <diagram id="50SFJp5ubic6aaenUV3t" name="Page-1">
-    <mxGraphModel dx="2286" dy="1387" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="3386" dy="1387" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8LVBuge92rnSU-5cAPxC-153" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;fontSize=20;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="-1089.63" y="-800" width="1056" height="542" as="geometry" />
+          <mxGeometry x="-1089.63" y="-800" width="1056" height="584" as="geometry" />
         </mxCell>
         <mxCell id="WUdzyqll9c67G4xO25Zf-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontSize=12;direction=south;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="-1071.63" y="-755" width="150.35" height="414" as="geometry" />
@@ -14,10 +14,10 @@
           <mxGeometry x="-1100" y="-31.689999999999998" width="1077.87" height="173.16" as="geometry" />
         </mxCell>
         <mxCell id="8LVBuge92rnSU-5cAPxC-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontSize=12;direction=south;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="-344.63" y="-739" width="162" height="468" as="geometry" />
+          <mxGeometry x="-344.63" y="-739" width="162" height="505" as="geometry" />
         </mxCell>
         <mxCell id="8LVBuge92rnSU-5cAPxC-2" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=34;strokeWidth=1;fillColor=#B9E0A5;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-328.63" y="-557" width="134" height="276" as="geometry" />
+          <mxGeometry x="-328.63" y="-557" width="134" height="316" as="geometry" />
         </mxCell>
         <mxCell id="8LVBuge92rnSU-5cAPxC-3" value="DW" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;flipH=1;flipV=0;direction=east;shadow=0;part=0;verticalAlign=top;fontSize=25;" parent="1" vertex="1">
           <mxGeometry x="-773.63" y="-685" width="258" height="236" as="geometry" />
@@ -109,8 +109,8 @@
         <mxCell id="8LVBuge92rnSU-5cAPxC-32" value="ETL Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="-877.63" y="-376" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8LVBuge92rnSU-5cAPxC-33" value="Báo cáo MIS" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="-311.63" y="-469" width="100" height="30" as="geometry" />
+        <mxCell id="8LVBuge92rnSU-5cAPxC-33" value="MIS" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+          <mxGeometry x="-311.63" y="-470" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8LVBuge92rnSU-5cAPxC-34" value="Daily Reporting" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="-311.63" y="-432" width="100" height="30" as="geometry" />
@@ -300,8 +300,8 @@
         </mxCell>
         <mxCell id="8LVBuge92rnSU-5cAPxC-152" value="" style="endArrow=none;html=1;strokeWidth=8;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1094.5" y="-238" as="sourcePoint" />
-            <mxPoint x="-17.5" y="-232" as="targetPoint" />
+            <mxPoint x="-1099.13" y="-193" as="sourcePoint" />
+            <mxPoint x="-22.13" y="-187" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8LVBuge92rnSU-5cAPxC-154" value="FIle sao ke" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
@@ -333,6 +333,9 @@
         </mxCell>
         <mxCell id="WUdzyqll9c67G4xO25Zf-7" value="Downstream Application" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-158.63" y="-429" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WUdzyqll9c67G4xO25Zf-8" value="AML" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-307.38" y="-280" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
