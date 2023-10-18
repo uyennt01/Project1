@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T07:24:54.574Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15" etag="ulzFulSw2RpKIUmUxgl3" version="22.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-18T08:18:43.132Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15" etag="F5IMZyuAa-1BmgZcKmNT" version="22.0.4" type="github" pages="2">
   <diagram id="50SFJp5ubic6aaenUV3t" name="Page-1">
     <mxGraphModel dx="3154" dy="1394" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -341,7 +341,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AajYaUt6CF7AGto6r2fk" name="Page-2">
-    <mxGraphModel dx="954" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -377,6 +377,42 @@
         </mxCell>
         <mxCell id="ynMvvTWJkY6zIwLIu3ql-11" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.business_connectivity_services;" vertex="1" parent="1">
           <mxGeometry x="80" y="309" width="34" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="ynMvvTWJkY6zIwLIu3ql-13" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.dropbox;fillColor=#0287EA" vertex="1" parent="1">
+          <mxGeometry x="377" y="489" width="73.4" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="ynMvvTWJkY6zIwLIu3ql-14" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.youtube_2;fillColor=#FF2626;gradientColor=#B5171F" vertex="1" parent="1">
+          <mxGeometry x="430" y="560" width="46.400000000000006" height="32.6" as="geometry" />
+        </mxCell>
+        <mxCell id="ynMvvTWJkY6zIwLIu3ql-15" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.excel_services;" vertex="1" parent="1">
+          <mxGeometry x="380" y="410" width="60" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ynMvvTWJkY6zIwLIu3ql-16" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/document-icons-2/30/647713-word-128.png" vertex="1" parent="1">
+          <mxGeometry x="158" y="190" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="ynMvvTWJkY6zIwLIu3ql-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/bootstrap-vol-3/16/file-word-128.png" vertex="1" parent="1">
+          <mxGeometry x="600" y="260" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="ynMvvTWJkY6zIwLIu3ql-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-regular-vol-3/256/microsoft-word-logo-128.png" vertex="1" parent="1">
+          <mxGeometry x="409" y="210" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="ynMvvTWJkY6zIwLIu3ql-19" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/microsoft-excel-logo-fill-128.png" vertex="1" parent="1">
+          <mxGeometry x="560" y="382" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="ynMvvTWJkY6zIwLIu3ql-20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/brands-applications/512/Excel_D-128.png" vertex="1" parent="1">
+          <mxGeometry x="630" y="512" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="ynMvvTWJkY6zIwLIu3ql-22" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="532" y="260" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="ynMvvTWJkY6zIwLIu3ql-23" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="320" y="196" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="ynMvvTWJkY6zIwLIu3ql-24" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-5-1/512/37-128.png" vertex="1" parent="1">
+          <mxGeometry x="60" y="237" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ynMvvTWJkY6zIwLIu3ql-25" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/698700-icon-109-document-file-xlsx-128.png" vertex="1" parent="1">
+          <mxGeometry x="540" y="584" width="56" height="56" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
