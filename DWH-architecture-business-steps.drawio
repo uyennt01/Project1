@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T06:58:34.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="bkk-cYMrwWbvET-Q2MIq" version="22.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-24T07:01:44.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="1QyLHX2_vMcUNu3u_ZyC" version="22.0.6" type="github" pages="2">
   <diagram id="c-QMJQ57p_6x7q5uFnAX" name="Страница 1">
     <mxGraphModel dx="1674" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FEFEFE" math="0" shadow="0">
       <root>
@@ -318,28 +318,28 @@
         <mxCell id="OUC71T2iOJJOMT_DE11--4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="OUC71T2iOJJOMT_DE11--5" target="OUC71T2iOJJOMT_DE11--7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OUC71T2iOJJOMT_DE11--5" value="Собрать&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+        <mxCell id="OUC71T2iOJJOMT_DE11--5" value="Collect" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="60" y="210" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OUC71T2iOJJOMT_DE11--6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="OUC71T2iOJJOMT_DE11--7" target="OUC71T2iOJJOMT_DE11--9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OUC71T2iOJJOMT_DE11--7" value="Стандартизировать" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="OUC71T2iOJJOMT_DE11--7" value="Standardize" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="210" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OUC71T2iOJJOMT_DE11--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="OUC71T2iOJJOMT_DE11--9" target="OUC71T2iOJJOMT_DE11--11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OUC71T2iOJJOMT_DE11--9" value="Сохранить" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="OUC71T2iOJJOMT_DE11--9" value="Save" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="210" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OUC71T2iOJJOMT_DE11--10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="OUC71T2iOJJOMT_DE11--11" target="OUC71T2iOJJOMT_DE11--12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OUC71T2iOJJOMT_DE11--11" value="Предоставить" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="OUC71T2iOJJOMT_DE11--11" value="Provide" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="210" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OUC71T2iOJJOMT_DE11--12" value="Проанализировать" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="OUC71T2iOJJOMT_DE11--12" value="&lt;div class=&quot;srk_jie_guo_html&quot; id=&quot;jieguo_show_0_html&quot;&gt;Analyze&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="210" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OUC71T2iOJJOMT_DE11--13" value="" style="endArrow=none;html=1;rounded=0;startArrow=none;strokeWidth=3;curved=1;" parent="1" source="OUC71T2iOJJOMT_DE11--43" edge="1">
@@ -502,8 +502,8 @@
         <mxCell id="OUC71T2iOJJOMT_DE11--53" value="Scheduler" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#808080;align=center;strokeColor=#82b366;fillColor=#d5e8d4;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="445" y="490" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OUC71T2iOJJOMT_DE11--54" value="Зона отвественности" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#808080;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="130" y="115" width="150" height="30" as="geometry" />
+        <mxCell id="OUC71T2iOJJOMT_DE11--54" value="&lt;div class=&quot;srk_jie_guo_html&quot; id=&quot;jieguo_show_1_html&quot;&gt;zone of responsibility&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#808080;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="135" y="115" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
