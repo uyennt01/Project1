@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T07:01:44.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="1QyLHX2_vMcUNu3u_ZyC" version="22.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-24T07:05:16.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="OefT4HkhWzuRgTa61x7r" version="22.0.6" type="github" pages="2">
   <diagram id="c-QMJQ57p_6x7q5uFnAX" name="Страница 1">
     <mxGraphModel dx="1674" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FEFEFE" math="0" shadow="0">
       <root>
@@ -235,10 +235,10 @@
             <mxPoint x="1100" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M-UGzft79nvsc4qFSahv-64" value="План хранилища данных" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=22;fontStyle=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="M-UGzft79nvsc4qFSahv-64" value="&lt;div class=&quot;srk_jie_guo_html&quot; id=&quot;jieguo_show_0_html&quot;&gt;Data Warehouse Plan&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=22;fontStyle=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="50" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="M-UGzft79nvsc4qFSahv-65" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;* Стрелками указаны потоки данных&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;shadow=0;glass=0;rounded=0;" vertex="1" parent="1">
+        <mxCell id="M-UGzft79nvsc4qFSahv-65" value="* Arrows indicate data flows" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;shadow=0;glass=0;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="100" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="M-UGzft79nvsc4qFSahv-66" value="SERVICE" style="whiteSpace=wrap;html=1;fontStyle=1;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
