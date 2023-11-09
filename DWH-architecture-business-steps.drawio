@@ -1,9 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T08:35:38.508Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15" etag="0oNontg4iI0jgf7fwekY" version="22.1.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-11-09T08:36:44.577Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15" etag="9h_mYGao9WcBOfWJbBgQ" version="22.1.0" type="github" pages="4">
   <diagram id="pvQqBSoRyKAxWlYnKgw_" name="Page-4">
     <mxGraphModel dx="1194" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AailahrqOxqh2CEqsmMN-2" value="&lt;b&gt;DWH&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#67AB9F;" vertex="1" parent="1">
+          <mxGeometry x="920" y="121.5" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FTCgo17mUKnpxOcqRR9h-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1004" y="210.5" width="80" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="FTCgo17mUKnpxOcqRR9h-6" value="" style="swimlane;startSize=0;swimlaneFillColor=none;glass=0;shadow=0;rounded=0;container=0;" vertex="1" parent="FTCgo17mUKnpxOcqRR9h-5">
+          <mxGeometry width="60" height="60" as="geometry">
+            <mxRectangle x="820" y="240" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FTCgo17mUKnpxOcqRR9h-7" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;rounded=0;container=0;" vertex="1" parent="FTCgo17mUKnpxOcqRR9h-5">
+          <mxGeometry x="10" y="4.5" width="40" height="41" as="geometry" />
+        </mxCell>
         <mxCell id="wEFccyb8uNXOnM6p5R_q-1" value="&lt;b&gt;Data Storage Layer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#67AB9F;" vertex="1" parent="1">
           <mxGeometry x="510" y="121" width="160" height="200" as="geometry" />
         </mxCell>
@@ -31,20 +45,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FTCgo17mUKnpxOcqRR9h-3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;rounded=0;container=0;" vertex="1" parent="FTCgo17mUKnpxOcqRR9h-1">
-          <mxGeometry x="10" y="4.5" width="40" height="41" as="geometry" />
-        </mxCell>
-        <mxCell id="FTCgo17mUKnpxOcqRR9h-5" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1004" y="210.5" width="80" height="111" as="geometry" />
-        </mxCell>
-        <mxCell id="FTCgo17mUKnpxOcqRR9h-6" value="" style="swimlane;startSize=0;swimlaneFillColor=none;glass=0;shadow=0;rounded=0;container=0;" vertex="1" parent="FTCgo17mUKnpxOcqRR9h-5">
-          <mxGeometry width="80" height="111" as="geometry">
-            <mxRectangle x="820" y="240" width="50" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="AailahrqOxqh2CEqsmMN-2" value="&lt;b&gt;DWH&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#67AB9F;" vertex="1" parent="FTCgo17mUKnpxOcqRR9h-6">
-          <mxGeometry x="-80" y="-89" width="160" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="FTCgo17mUKnpxOcqRR9h-7" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;rounded=0;container=0;" vertex="1" parent="FTCgo17mUKnpxOcqRR9h-5">
           <mxGeometry x="10" y="4.5" width="40" height="41" as="geometry" />
         </mxCell>
         <mxCell id="U5b3cEc3OAdTQQSWfkGV-1" value="BI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
