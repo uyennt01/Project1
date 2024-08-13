@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-10T04:16:14.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="CSyHslz3w4PdGpGgXsDh" version="22.1.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0" version="24.7.6" pages="5">
   <diagram id="pvQqBSoRyKAxWlYnKgw_" name="Page-4">
     <mxGraphModel dx="1674" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -899,6 +899,33 @@
         </mxCell>
         <mxCell id="OUC71T2iOJJOMT_DE11--54" value="&lt;div class=&quot;srk_jie_guo_html&quot; id=&quot;jieguo_show_1_html&quot;&gt;zone of responsibility&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#808080;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="135" y="115" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xY_iH_GaPP_NyDySNyij" name="Luong T24">
+    <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e54gkwYeItjXlFIWvf7A-1" value="Start" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="50" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="e54gkwYeItjXlFIWvf7A-2" value="Job STG OTHSRC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="212" y="20" width="135" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="e54gkwYeItjXlFIWvf7A-3" value="End" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="474" y="20" width="41" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="e54gkwYeItjXlFIWvf7A-4" value="Đặt lịch 1:00" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="e54gkwYeItjXlFIWvf7A-1" target="e54gkwYeItjXlFIWvf7A-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e54gkwYeItjXlFIWvf7A-5" value="30-40 phút" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="e54gkwYeItjXlFIWvf7A-2" target="e54gkwYeItjXlFIWvf7A-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
