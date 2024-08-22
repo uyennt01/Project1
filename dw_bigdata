@@ -536,7 +536,7 @@
           <mxGeometry x="-1029.83" y="-352" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3pilipa8s475UIvqIP5s-54" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="-456.5" width="36" height="314.5" as="geometry" />
+          <mxGeometry x="-140" y="-500" width="36" height="358" as="geometry" />
         </mxCell>
         <mxCell id="3pilipa8s475UIvqIP5s-55" value="Downstream Applications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="-107.37" y="-313.25" width="80" height="20" as="geometry" />
