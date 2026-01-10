@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0">
   <diagram name="Page-1" id="jrDq7Ty8NVUYucneDnGM">
-    <mxGraphModel>
+    <mxGraphModel dx="1215" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="F-cJTqA6ILCQ3hdG7BwN-34" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" value="DB Digital+&#xa;192.168.187.26" vertex="1">
+          <mxGeometry height="54" width="153" x="50" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F-cJTqA6ILCQ3hdG7BwN-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" value="DB Digital+&#xa;192.168.187.22" vertex="1">
+          <mxGeometry height="54" width="153" x="50" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="F-cJTqA6ILCQ3hdG7BwN-36" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" value="GoldenGate for BigData&#xa;92.168.59.54" vertex="1">
+          <mxGeometry height="54" width="240" x="240" y="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
