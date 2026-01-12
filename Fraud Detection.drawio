@@ -655,11 +655,126 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="QNfPiu1ptt7zMw1X5m25" name="Page-4">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+  <diagram id="QNfPiu1ptt7zMw1X5m25" name="Luong_giao_dich">
+    <mxGraphModel dx="1434" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="w130KDH4wfcmJwh75nE9-1" parent="1" style="text;fontSize=20;fontStyle=1;align=center;" value="LUỒNG GIAO DỊCH CHUYỂN KHOẢN NGOÀI HỆ THỐNG (NAPAS)" vertex="1">
+          <mxGeometry height="40" width="1000" x="360" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-2" parent="1" style="rounded=1;fillColor=#E3F2FD;strokeColor=#1976D2;strokeWidth=2;fontSize=11;align=left;spacingLeft=10;" value="BƯỚC 1: ĐĂNG NHẬP&#xa;&#xa;Customer: Nhập username/password&#xa;App → Service: Xác thực&#xa;Oracle: OMNI_CUSTOMER (query, update)&#xa;MongoDB: OMNI_LOG (login event)" vertex="1">
+          <mxGeometry height="120" width="300" x="60" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-3" parent="1" style="rounded=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=2;fontSize=11;align=left;spacingLeft=10;" value="BƯỚC 2: CHỌN CHỨC NĂNG&#xa;&#xa;Customer: Chọn chuyển khoản Napas&#xa;Service: Lấy danh sách TK nguồn&#xa;Oracle: OMNI_CUSTOMER (get CIF)&#xa;Core Banking API: Get accounts" vertex="1">
+          <mxGeometry height="120" width="300" x="410" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-4" parent="1" style="rounded=1;fillColor=#FFF3E0;strokeColor=#E65100;strokeWidth=2;fontSize=11;align=left;spacingLeft=10;" value="BƯỚC 3: CHỌN TK NGUỒN&#xa;&#xa;Customer: Chọn tài khoản&#xa;Service: Lấy danh bạ&#xa;MongoDB: OMNI_BENEFICIARY_CONTACT" vertex="1">
+          <mxGeometry height="120" width="300" x="760" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-5" parent="1" style="rounded=1;fillColor=#E8F5E9;strokeColor=#2E7D32;strokeWidth=2;fontSize=11;align=left;spacingLeft=10;" value="BƯỚC 4: NHẬP THÔNG TIN THỤ HƯỞNG&#xa;&#xa;Customer: Nhập số TK + ngân hàng&#xa;Service: Xác thực TK&#xa;Napas API: Inquiry Account → BENE_NAME" vertex="1">
+          <mxGeometry height="120" width="300" x="1110" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-6" parent="1" style="rounded=1;fillColor=#FFEBEE;strokeColor=#C62828;strokeWidth=2;fontSize=11;align=left;spacingLeft=10;" value="BƯỚC 5: NHẬP SỐ TIỀN&#xa;&#xa;Customer: Nhập amount + nội dung&#xa;Service: Kiểm tra hạn mức, tính phí&#xa;Oracle: Bảng hạn mức, biểu phí&#xa;Core Banking: Check balance" vertex="1">
+          <mxGeometry height="120" width="300" x="60" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-7" parent="1" style="rounded=1;fillColor=#FFF8E1;strokeColor=#F57F17;strokeWidth=3;fontSize=11;align=left;spacingLeft=10;fontStyle=1" value="BƯỚC 6: XÁC NHẬN&#xa;&#xa;Customer: Xác nhận thông tin&#xa;Service: Tạo bản ghi GD&#xa;Oracle: INSERT OMNI_TRANSACTION&#xa;Oracle: INSERT OMNI_TRANSACTION_PHASE&#xa;STATUS: 0 (Init), PHASE: INIT" vertex="1">
+          <mxGeometry height="120" width="300" x="410" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-8" parent="1" style="rounded=1;fillColor=#E1F5FE;strokeColor=#01579B;strokeWidth=2;fontSize=11;align=left;spacingLeft=10;" value="BƯỚC 7: XÁC THỰC OTP&#xa;&#xa;Customer: Nhập OTP&#xa;Service: Tạo/gửi/xác thực OTP&#xa;SMS Gateway / Facepay API&#xa;Oracle: Update AUTH_METHOD&#xa;PHASE: SEND_OTP, VERIFY_OTP" vertex="1">
+          <mxGeometry height="120" width="300" x="760" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-9" parent="1" style="rounded=1;fillColor=#FFECB3;strokeColor=#FF6F00;strokeWidth=3;fontSize=11;align=left;spacingLeft=10;fontStyle=1" value="BƯỚC 8: XỬ LÝ GIAO DỊCH&#xa;&#xa;Service → Core Banking API&#xa;Core Banking → Napas (interbank)&#xa;Napas → Core Banking (response)&#xa;Oracle: STATUS: 4, PHASE: PROCESSING&#xa;Output: REF_NO, REF_THIRD_PARTY" vertex="1">
+          <mxGeometry height="120" width="300" x="1110" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-10" parent="1" style="rounded=1;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=3;fontSize=11;align=left;spacingLeft=10;fontStyle=1" value="BƯỚC 9: CẬP NHẬT KẾT QUẢ&#xa;&#xa;Service: Nhận kết quả từ Core&#xa;Oracle: Update OMNI_TRANSACTION&#xa;  STATUS: 1 (Success) / 2 (Failed) / 3 (Timeout)&#xa;  REF_NO, REF_THIRD_PARTY&#xa;PHASE: COMPLETED&#xa;MongoDB: OMNI_LOG (result)" vertex="1">
+          <mxGeometry height="140" width="350" x="60" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-11" parent="1" style="rounded=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=2;fontSize=11;align=left;spacingLeft=10;" value="BƯỚC 10: THÔNG BÁO KẾT QUẢ&#xa;&#xa;Service: Gửi thông báo đa kênh&#xa;  - SMS, Push Notification, Email&#xa;App: Hiển thị kết quả&#xa;Customer: Nhận thông báo&#xa;MongoDB: Save OMNI_BENEFICIARY_CONTACT" vertex="1">
+          <mxGeometry height="140" width="350" x="460" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-12" parent="1" style="rounded=1;fillColor=#FFE082;strokeColor=#F57F17;strokeWidth=3;fontSize=11;align=left;spacingLeft=10;fontStyle=1" value="BƯỚC 11: RECONCILIATION (Job tự động)&#xa;&#xa;Job: Query OMNI_TRANSACTION&#xa;  WHERE STATUS IN (3,4) - Timeout/Pending&#xa;Core Banking API: Check status&#xa;Oracle: Update actual status&#xa;PHASE: RECONCILE&#xa;Notification: Gửi SMS/Push nếu có thay đổi" vertex="1">
+          <mxGeometry height="140" width="350" x="860" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-13" edge="1" parent="1" source="w130KDH4wfcmJwh75nE9-2" style="edgeStyle=orthogonalEdgeStyle;strokeWidth=3;strokeColor=#1976D2;endArrow=block;" target="w130KDH4wfcmJwh75nE9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-14" edge="1" parent="1" source="w130KDH4wfcmJwh75nE9-3" style="edgeStyle=orthogonalEdgeStyle;strokeWidth=3;strokeColor=#7B1FA2;endArrow=block;" target="w130KDH4wfcmJwh75nE9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-15" edge="1" parent="1" source="w130KDH4wfcmJwh75nE9-4" style="edgeStyle=orthogonalEdgeStyle;strokeWidth=3;strokeColor=#E65100;endArrow=block;" target="w130KDH4wfcmJwh75nE9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-16" edge="1" parent="1" source="w130KDH4wfcmJwh75nE9-5" style="edgeStyle=orthogonalEdgeStyle;strokeWidth=3;strokeColor=#2E7D32;endArrow=block;" target="w130KDH4wfcmJwh75nE9-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="230" />
+              <mxPoint x="210" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-17" edge="1" parent="1" source="w130KDH4wfcmJwh75nE9-6" style="edgeStyle=orthogonalEdgeStyle;strokeWidth=3;strokeColor=#C62828;endArrow=block;" target="w130KDH4wfcmJwh75nE9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-18" edge="1" parent="1" source="w130KDH4wfcmJwh75nE9-7" style="edgeStyle=orthogonalEdgeStyle;strokeWidth=3;strokeColor=#F57F17;endArrow=block;" target="w130KDH4wfcmJwh75nE9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-19" edge="1" parent="1" source="w130KDH4wfcmJwh75nE9-8" style="edgeStyle=orthogonalEdgeStyle;strokeWidth=3;strokeColor=#01579B;endArrow=block;" target="w130KDH4wfcmJwh75nE9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-20" edge="1" parent="1" source="w130KDH4wfcmJwh75nE9-9" style="edgeStyle=orthogonalEdgeStyle;strokeWidth=4;strokeColor=#FF6F00;endArrow=block;" target="w130KDH4wfcmJwh75nE9-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="400" />
+              <mxPoint x="235" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-21" edge="1" parent="1" source="w130KDH4wfcmJwh75nE9-10" style="edgeStyle=orthogonalEdgeStyle;strokeWidth=3;strokeColor=#2E7D32;endArrow=block;" target="w130KDH4wfcmJwh75nE9-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-22" parent="1" style="rounded=0;fillColor=#FAFAFA;strokeColor=#757575;strokeWidth=2;fontSize=10;align=left;spacingLeft=15;verticalAlign=top;" value="LEGEND&#xa;&#xa;STATUS: 0=Init, 1=Success, 2=Failed, 3=Timeout, 4=Pending&#xa;PHASES: INIT → SEND_OTP → VERIFY_OTP → PROCESSING → CORE_BANKING → COMPLETED → RECONCILE&#xa;&#xa;KEY TABLES:&#xa;• OMNI_CUSTOMER (Oracle) - Thông tin khách hàng&#xa;• OMNI_TRANSACTION (Oracle) - Giao dịch chính&#xa;• OMNI_TRANSACTION_PHASE (Oracle) - Các phase của GD&#xa;• OMNI_LOG (MongoDB) - Logs hệ thống&#xa;• OMNI_BENEFICIARY_CONTACT (MongoDB) - Danh bạ thụ hưởng&#xa;&#xa;EXTERNAL APIs:&#xa;• Core Banking - Hệ thống lõi ngân hàng&#xa;• Napas - Chuyển khoản liên ngân hàng&#xa;• SMS Gateway - Gửi OTP&#xa;• Facepay - Xác thực khuôn mặt" vertex="1">
+          <mxGeometry height="280" width="1350" x="60" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-23" parent="1" style="text;fontSize=18;fontStyle=1;align=center;" value="DATA FLOW DIAGRAM" vertex="1">
+          <mxGeometry height="30" width="1350" x="60" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-24" parent="1" style="rounded=0;fillColor=#E3F2FD;strokeColor=#1976D2;fontSize=12;fontStyle=1;align=center;" value="CUSTOMER" vertex="1">
+          <mxGeometry height="40" width="150" x="60" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-25" parent="1" style="rounded=0;fillColor=#F3E5F5;strokeColor=#7B1FA2;fontSize=12;fontStyle=1;align=center;" value="MOBILE APP" vertex="1">
+          <mxGeometry height="40" width="150" x="260" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-26" parent="1" style="rounded=0;fillColor=#FFF3E0;strokeColor=#E65100;fontSize=12;fontStyle=1;align=center;" value="SERVICE LAYER" vertex="1">
+          <mxGeometry height="40" width="150" x="460" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-27" parent="1" style="rounded=0;fillColor=#FFEBEE;strokeColor=#C62828;fontSize=12;fontStyle=1;align=center;" value="ORACLE DB" vertex="1">
+          <mxGeometry height="40" width="150" x="660" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-28" parent="1" style="rounded=0;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;fontStyle=1;align=center;" value="MONGODB" vertex="1">
+          <mxGeometry height="40" width="150" x="860" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-29" parent="1" style="rounded=0;fillColor=#FFF8E1;strokeColor=#F57F17;fontSize=12;fontStyle=1;align=center;" value="EXTERNAL APIs" vertex="1">
+          <mxGeometry height="40" width="200" x="1060" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-30" edge="1" parent="1" source="w130KDH4wfcmJwh75nE9-24" style="edgeStyle=orthogonalEdgeStyle;strokeWidth=2;strokeColor=#1976D2;endArrow=block;fontSize=10;" target="w130KDH4wfcmJwh75nE9-25" value="Request">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-31" edge="1" parent="1" source="w130KDH4wfcmJwh75nE9-25" style="edgeStyle=orthogonalEdgeStyle;strokeWidth=2;strokeColor=#7B1FA2;endArrow=block;fontSize=10;" target="w130KDH4wfcmJwh75nE9-26" value="API Call">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-32" edge="1" parent="1" source="w130KDH4wfcmJwh75nE9-26" style="edgeStyle=orthogonalEdgeStyle;strokeWidth=2;strokeColor=#C62828;endArrow=block;fontSize=10;" target="w130KDH4wfcmJwh75nE9-27" value="Query/Update">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-33" edge="1" parent="1" source="w130KDH4wfcmJwh75nE9-26" style="edgeStyle=orthogonalEdgeStyle;strokeWidth=2;strokeColor=#2E7D32;endArrow=block;fontSize=10;" target="w130KDH4wfcmJwh75nE9-28" value="Log">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-34" edge="1" parent="1" source="w130KDH4wfcmJwh75nE9-26" style="edgeStyle=orthogonalEdgeStyle;strokeWidth=2;strokeColor=#F57F17;endArrow=block;fontSize=10;" target="w130KDH4wfcmJwh75nE9-29" value="External Call">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w130KDH4wfcmJwh75nE9-35" parent="1" style="text;fontSize=9;fillColor=#EEEEEE;align=center;" value="Document: Transaction Data Flow | Version: 1.0 | Date: 2026-01-12" vertex="1">
+          <mxGeometry height="20" width="1350" x="60" y="1110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
