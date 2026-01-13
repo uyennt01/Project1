@@ -896,7 +896,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QNfPiu1ptt7zMw1X5m25" name="Luong_giao_dich">
-    <mxGraphModel dx="1195" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -921,13 +921,13 @@
         <mxCell id="w130KDH4wfcmJwh75nE9-9" parent="1" style="rounded=1;fillColor=#FFECB3;strokeColor=#FF6F00;strokeWidth=3;fontSize=12;align=left;spacingLeft=10;fontStyle=1;whiteSpace=wrap;html=1;" value="BƯỚC 8: XỬ LÝ GIAO DỊCH&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Service → Core Banking API&lt;br&gt;Core Banking → Napas (interbank)&lt;br&gt;Napas → Core Banking (response)&lt;br&gt;Oracle: STATUS: 4, PHASE: PROCESSING&lt;br&gt;Output: REF_NO, REF_THIRD_PARTY&lt;/span&gt;" vertex="1">
           <mxGeometry height="120" width="300" x="1110" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="w130KDH4wfcmJwh75nE9-10" parent="1" style="rounded=1;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=3;fontSize=11;align=left;spacingLeft=10;fontStyle=1" value="BƯỚC 9: CẬP NHẬT KẾT QUẢ&#xa;&#xa;Service: Nhận kết quả từ Core&#xa;Oracle: Update OMNI_TRANSACTION&#xa;  STATUS: 1 (Success) / 2 (Failed) / 3 (Timeout)&#xa;  REF_NO, REF_THIRD_PARTY&#xa;PHASE: COMPLETED&#xa;MongoDB: OMNI_LOG (result)" vertex="1">
+        <mxCell id="w130KDH4wfcmJwh75nE9-10" parent="1" style="rounded=1;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=3;fontSize=12;align=left;spacingLeft=10;fontStyle=1;whiteSpace=wrap;html=1;" value="BƯỚC 9: CẬP NHẬT KẾT QUẢ&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Service: Nhận kết quả từ Core&lt;br&gt;Oracle: Update OMNI_TRANSACTION&lt;br&gt;  STATUS: 1 (Success) / 2 (Failed) / 3 (Timeout)&lt;br&gt;  REF_NO, REF_THIRD_PARTY&lt;br&gt;PHASE: COMPLETED&lt;br&gt;MongoDB: OMNI_LOG (result)&lt;/span&gt;" vertex="1">
           <mxGeometry height="140" width="350" x="60" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="w130KDH4wfcmJwh75nE9-11" parent="1" style="rounded=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=2;fontSize=11;align=left;spacingLeft=10;" value="BƯỚC 10: THÔNG BÁO KẾT QUẢ&#xa;&#xa;Service: Gửi thông báo đa kênh&#xa;  - SMS, Push Notification, Email&#xa;App: Hiển thị kết quả&#xa;Customer: Nhận thông báo&#xa;MongoDB: Save OMNI_BENEFICIARY_CONTACT" vertex="1">
+        <mxCell id="w130KDH4wfcmJwh75nE9-11" parent="1" style="rounded=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=2;fontSize=12;align=left;spacingLeft=10;whiteSpace=wrap;html=1;" value="&lt;b&gt;BƯỚC 10: THÔNG BÁO KẾT QUẢ&lt;br&gt;&lt;/b&gt;&lt;br&gt;Service: Gửi thông báo đa kênh&lt;br&gt;  - SMS, Push Notification, Email&lt;br&gt;App: Hiển thị kết quả&lt;br&gt;Customer: Nhận thông báo&lt;br&gt;MongoDB: Save OMNI_BENEFICIARY_CONTACT" vertex="1">
           <mxGeometry height="140" width="350" x="460" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="w130KDH4wfcmJwh75nE9-12" parent="1" style="rounded=1;fillColor=#FFE082;strokeColor=#F57F17;strokeWidth=3;fontSize=11;align=left;spacingLeft=10;fontStyle=1" value="BƯỚC 11: RECONCILIATION (Job tự động)&#xa;&#xa;Job: Query OMNI_TRANSACTION&#xa;  WHERE STATUS IN (3,4) - Timeout/Pending&#xa;Core Banking API: Check status&#xa;Oracle: Update actual status&#xa;PHASE: RECONCILE&#xa;Notification: Gửi SMS/Push nếu có thay đổi" vertex="1">
+        <mxCell id="w130KDH4wfcmJwh75nE9-12" parent="1" style="rounded=1;fillColor=#FFE082;strokeColor=#F57F17;strokeWidth=3;fontSize=12;align=left;spacingLeft=10;fontStyle=1;whiteSpace=wrap;html=1;" value="BƯỚC 11: RECONCILIATION (Job tự động)&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Job: Query OMNI_TRANSACTION&lt;br&gt;  WHERE STATUS IN (3,4) - Timeout/Pending&lt;br&gt;Core Banking API: Check status&lt;br&gt;Oracle: Update actual status&lt;br&gt;PHASE: RECONCILE&lt;br&gt;Notification: Gửi SMS/Push nếu có thay đổi&lt;/span&gt;" vertex="1">
           <mxGeometry height="140" width="350" x="860" y="430" as="geometry" />
         </mxCell>
         <mxCell id="w130KDH4wfcmJwh75nE9-13" edge="1" parent="1" source="5XR2Kc8IcxNqcA900OcL-1" style="edgeStyle=orthogonalEdgeStyle;strokeWidth=3;strokeColor=#1976D2;endArrow=block;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="G6g1kukgmJyuP_Okp3d9-1">
