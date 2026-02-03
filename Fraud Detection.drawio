@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6" pages="7">
   <diagram id="HflpUR1HLrMJ6bwBJ9TR" name="Enterprise Data Platform with Fraud">
     <mxGraphModel dx="1438" dy="894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -436,13 +436,13 @@
             <mxPoint x="340" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y0MNxcD-9csWlpMWg5kv-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" value="í ½í³±" vertex="1">
+        <mxCell id="y0MNxcD-9csWlpMWg5kv-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" value="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" vertex="1">
           <mxGeometry height="40" width="40" x="130" y="460" as="geometry" />
         </mxCell>
-        <mxCell id="d1szSJdXWWZ4FB8Hab8A-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" value="í ½í³„" vertex="1">
+        <mxCell id="d1szSJdXWWZ4FB8Hab8A-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" value="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" vertex="1">
           <mxGeometry height="40" width="40" x="402" y="460" as="geometry" />
         </mxCell>
-        <mxCell id="VXOyFJEOEH5-hMEVaBBK-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" value="í ½í²»" vertex="1">
+        <mxCell id="VXOyFJEOEH5-hMEVaBBK-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" value="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" vertex="1">
           <mxGeometry height="40" width="40" x="402" y="233" as="geometry" />
         </mxCell>
       </root>
@@ -1537,6 +1537,65 @@
         </mxCell>
         <mxCell id="yKj9lYIoEVv5HRyvBT_T-91" parent="1" style="text;fontSize=9;fillColor=#EEEEEE;align=center;" value="Document: Enterprise Data Platform with Fraud Detection System | Version: 1.0 | Date: 2026-01-13" vertex="1">
           <mxGeometry height="20" width="1900" x="60" y="1570" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gO6saq2oyPmgoaWElYIm" name="Luá»“ng Kiáº¿n trÃºc">
+    <mxGraphModel dx="1215" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=14;" value="SOURCE DB&#xa;(Digital+)&#xa;&#xa;OMNI_TRANSACTION" vertex="1">
+          <mxGeometry height="120" width="220" x="440" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=14;" value="GoldenGate&#xa;for BigData&#xa;&#xa;Extract/Pump" vertex="1">
+          <mxGeometry height="120" width="220" x="730" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=14;" value="Kafka&#xa;Cluster&#xa;&#xa;fraud-txn-raw" vertex="1">
+          <mxGeometry height="120" width="220" x="1025" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=14;" value="Apache Flink&#xa;Rule Engine&#xa;&#xa;68 Rules + ML" vertex="1">
+          <mxGeometry height="120" width="220" x="1285" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=14;" value="TARGET DB&#xa;(Fraud Results)&#xa;&#xa;Multiple Tables" vertex="1">
+          <mxGeometry height="120" width="240" x="1545" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=left;verticalAlign=top;fontFamily=Courier New;fontSize=14;spacing=10;" value="TABLE CATEGORIES:&#xa;1. Raw/Staging&#xa;2. Fraud Alerts&#xa;3. Transaction Scores&#xa;4. Rule Results&#xa;5. Aggregations&#xa;6. Audit/History" vertex="1">
+          <mxGeometry height="230" width="360" x="1475" y="532" as="geometry" />
+        </mxCell>
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-7" parent="1" style="line;strokeColor=#dddddd;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="500" width="1" x="615" y="462" as="geometry" />
+        </mxCell>
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-8" parent="1" style="line;strokeColor=#dddddd;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="500" width="1" x="875" y="462" as="geometry" />
+        </mxCell>
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-9" parent="1" style="line;strokeColor=#dddddd;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="500" width="1" x="1135" y="462" as="geometry" />
+        </mxCell>
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-10" parent="1" style="line;strokeColor=#dddddd;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="500" width="1" x="1395" y="462" as="geometry" />
+        </mxCell>
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-11" parent="1" style="line;strokeColor=#dddddd;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="500" width="1" x="1665" y="462" as="geometry" />
+        </mxCell>
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-12" edge="1" parent="1" source="23BdSmGvCBs-n_Y83nY6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#666666;" target="23BdSmGvCBs-n_Y83nY6-2" value="CDC">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-13" edge="1" parent="1" source="23BdSmGvCBs-n_Y83nY6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#666666;" target="23BdSmGvCBs-n_Y83nY6-3" value="JSON">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-14" edge="1" parent="1" source="23BdSmGvCBs-n_Y83nY6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#666666;" target="23BdSmGvCBs-n_Y83nY6-4" value="Stream">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-15" edge="1" parent="1" source="23BdSmGvCBs-n_Y83nY6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#666666;" target="23BdSmGvCBs-n_Y83nY6-5" value="JDBC">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-16" edge="1" parent="1" source="23BdSmGvCBs-n_Y83nY6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#666666;" target="23BdSmGvCBs-n_Y83nY6-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1665" y="482" as="sourcePoint" />
+            <mxPoint x="1665" y="532" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
