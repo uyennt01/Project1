@@ -1542,23 +1542,23 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gO6saq2oyPmgoaWElYIm" name="Luồng Lưu trữ dữ liệu">
-    <mxGraphModel dx="1034" dy="697" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="795" dy="697" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="23BdSmGvCBs-n_Y83nY6-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=19;" value="SOURCE DB&lt;br&gt;(Digital+)&lt;br&gt;&lt;br&gt;OMNI_TRANSACTION&lt;div&gt;OMNI_LOG&lt;/div&gt;" vertex="1">
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=18;" value="SOURCE DB&lt;br&gt;(Digital+)&lt;br&gt;&lt;br&gt;OMNI_TRANSACTION&lt;div&gt;OMNI_LOG&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="220" x="440" y="322" as="geometry" />
         </mxCell>
-        <mxCell id="23BdSmGvCBs-n_Y83nY6-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=20;" value="GoldenGate&lt;br&gt;for BigData&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=18;" value="GoldenGate&lt;br&gt;for BigData&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="220" x="730" y="322" as="geometry" />
         </mxCell>
-        <mxCell id="23BdSmGvCBs-n_Y83nY6-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=20;" value="Kafka&lt;br&gt;Cluster&lt;br&gt;&lt;br&gt;Topic:" vertex="1">
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=18;" value="Kafka&lt;br&gt;Cluster&lt;br&gt;&lt;br&gt;Topic:" vertex="1">
           <mxGeometry height="120" width="220" x="1025" y="322" as="geometry" />
         </mxCell>
-        <mxCell id="23BdSmGvCBs-n_Y83nY6-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=20;" value="Apache Flink&lt;br&gt;Rule Engine&lt;br&gt;&lt;br&gt;4 Rules + ML" vertex="1">
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=18;" value="Apache Flink&lt;br&gt;Rule Engine&lt;br&gt;&lt;br&gt;4 Rules + ML" vertex="1">
           <mxGeometry height="120" width="220" x="1320" y="322" as="geometry" />
         </mxCell>
-        <mxCell id="23BdSmGvCBs-n_Y83nY6-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=20;" value="TARGET DB&#xa;(Fraud Results)&#xa;&#xa;Multiple Tables" vertex="1">
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=18;" value="TARGET DB&#xa;(Fraud Results)&#xa;&#xa;Multiple Tables" vertex="1">
           <mxGeometry height="120" width="240" x="1620" y="322" as="geometry" />
         </mxCell>
         <mxCell id="23BdSmGvCBs-n_Y83nY6-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;fontFamily=Courier New;fontSize=20;spacing=10;" value="&lt;b&gt;TABLE CATEGORIES:&lt;br&gt;&lt;/b&gt;1. Raw/Staging&lt;br&gt;2. Fraud Alerts&lt;br&gt;3. Transaction Scores&lt;br&gt;4. Rule Results&lt;br&gt;5. Aggregations&lt;br&gt;6. Audit/History" vertex="1">
@@ -1597,7 +1597,7 @@
             <mxPoint x="1665" y="532" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="23BdSmGvCBs-n_Y83nY6-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=20;" value="Kafka&lt;div&gt;Connect&lt;/div&gt;" vertex="1">
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=18;" value="Kafka&lt;div&gt;Connect&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="220" x="1025.5" y="530" as="geometry" />
         </mxCell>
         <mxCell id="23BdSmGvCBs-n_Y83nY6-18" edge="1" parent="1" source="23BdSmGvCBs-n_Y83nY6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#666666;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="23BdSmGvCBs-n_Y83nY6-17" value="JSON">
@@ -1612,7 +1612,7 @@
             <mxPoint x="1385" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="23BdSmGvCBs-n_Y83nY6-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=20;" value="Kafka&lt;br&gt;Cluster (output)&lt;br&gt;&lt;br&gt;Topic:" vertex="1">
+        <mxCell id="23BdSmGvCBs-n_Y83nY6-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#666666;fillColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=18;" value="Kafka&lt;br&gt;Cluster (output)&lt;br&gt;&lt;br&gt;Topic:" vertex="1">
           <mxGeometry height="120" width="220" x="1320" y="120" as="geometry" />
         </mxCell>
         <mxCell id="23BdSmGvCBs-n_Y83nY6-23" edge="1" parent="1" source="23BdSmGvCBs-n_Y83nY6-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#666666;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="23BdSmGvCBs-n_Y83nY6-22" value="">
